@@ -1,0 +1,71 @@
+{
+  "name": "@map46/arcgis-react",
+  "version": "0.1.0",
+  "description": "Dashboard for ArcGIS Enterprise\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\fArcGIS Enterprise web console",
+  "keywords": [
+    "arcgis",
+    "react"
+  ],
+  "main": "index.html",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "parcel serve test.html --open",
+    "start": "parcel serve index.html --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Wildsong/arcgis-react.git"
+  },
+  "author": "Brian Wilson <brian@wildsong.biz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wildsong/arcgis-react/issues"
+  },
+  "homepage": "https://github.com/Wildsong/arcgis-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/plugin-transform-object-assign": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-select": "^3.0.8"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "@esri/arcgis-rest-auth": "^2.7.0",
+    "@esri/arcgis-rest-portal": "^2.7.0",
+    "@esri/arcgis-rest-request": "^2.7.0",
+    "prop-types": "^15.7.2",
+    "rc-slider": "^8.7.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-object-rest-spread",
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ]
+    ]
+  }
+}
