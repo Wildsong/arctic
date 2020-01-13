@@ -1,5 +1,5 @@
 {
-  "name": "@map46/arcgis-react",
+  "name": "@wildsong/arctic",
   "version": "0.1.0",
   "description": "Dashboard for ArcGIS Enterprise\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\fArcGIS Enterprise web console",
   "keywords": [
@@ -9,27 +9,27 @@
   "main": "index.html",
   "scripts": {
     "lint": "eslint .",
-    "test": "parcel serve test.html --open",
-    "start": "parcel serve index.html --open",
+    "test": "parcel serve test.html",
+    "start": "parcel serve index.html",
     "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Wildsong/arcgis-react.git"
+    "url": "git@github.com:Wildsong/arctic.git"
   },
   "author": "Brian Wilson <brian@wildsong.biz>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Wildsong/arcgis-react/issues"
+    "url": "https://github.com/Wildsong/arctic/issues"
   },
-  "homepage": "https://github.com/Wildsong/arcgis-react#readme",
+  "homepage": "https://github.com/Wildsong/arctic#readme",
   "devDependencies": {
-    "@babel/core": "^7.7.7",
-    "@babel/plugin-proposal-class-properties": "^7.7.4",
-    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/core": "^7.8.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.0",
     "@babel/plugin-transform-object-assign": "^7.7.4",
-    "@babel/preset-env": "^7.7.7",
-    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-env": "^7.8.2",
+    "@babel/preset-react": "^7.8.0",
     "cssnano": "^4.1.10",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
@@ -39,7 +39,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0",
-    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.1"
   },
   "peerDependencies": {},
   "dependencies": {
