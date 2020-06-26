@@ -1,11 +1,31 @@
-arcgis-react
+# arctic
 
 ## Overview
-Dashboard for ArcGIS Online/ArcGIS Portal, using React.
+Dashboard for ArcGIS Online/ArcGIS Portal.
 
-2020-Jan-10 Does nothing so far, come back later.
+This is totally just a dev project at the moment where I am
+testing out ideas.
 
-## Run!
+## FlexLM
+
+I am now adding support for the ESRI LicenseManager (flexlm)
+by merging in code from my previous docker project docker-flexlm.
+
+The code for it is currently in mqtt_test because I am testing
+using it to queue messages using MQTT. There is a client program
+that subscribes to messages and a logwatch.py script that will
+eventually watch the log file for FlexLM and publish changes to MQTT.
+
+## MQTT
+
+I am using MQTT for message queues so there is now a mqtt_broker
+folder containing a set up for running Mosquitto in a Docker container.
+It's very basic, included here for convenience; any MQTT broker should work.
+
+## Node
+
+** This project currently does NOT use NPM. ** I am not working on that
+part right now.
 
 The project uses npm and the parcel bundler. You need to install npm and then
 install parcel globally. (``npm install parcel -g``) Once you have done that, use
