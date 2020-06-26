@@ -22,6 +22,12 @@ I am using MQTT for message queues so there is now a mqtt_broker
 folder containing a set up for running Mosquitto in a Docker container.
 It's very basic, included here for convenience; any MQTT broker should work.
 
+It should be possible to install this project on different servers
+so that you can test connections over the Internet.
+
+It should be possible to put the MQTT broker behind a reverse proxy
+so that it can be accessed securely over websockets.
+
 ## Node
 
 ** This project currently does NOT use NPM. ** I am not working on that
