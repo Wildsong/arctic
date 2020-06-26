@@ -1,0 +1,33 @@
+version: '3.6'
+
+services:
+  mosquitto:
+    container_name: mosquitto
+    env_file: .env
+    environment:
+      VIRTUAL_HOST: ${MQTT_VIRTUAL_HOST}
+      VIRTUAL_PORT: 9001
+      NETWORK_ACCESS: internal
+      LETSENCRYPT_HOST: ${MQTT_VIRTUAL_HOST}
+      LETSENCRYPT_MAIL: ${MY_EMAIL}
+    volumes:
+      - ${PWD}/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    expose:
+      - "9001"
+      - "1883"
+    ports:
+      - "9001:9001"
+      - "1883:1883"
+    networks:
+      proxy_net:
+        aliases:
+          - mqtt
+    image: eclipse-mosquitto:latest
+    restart: unless-stopped
+
+networks:
+  proxy_net:
+    name: proxy_net
+    external: true

@@ -1,0 +1,1487 @@
+ 7:35:22 (lmgrd) -----------------------------------------------
+ 7:35:22 (lmgrd)   Please Note:
+ 7:35:22 (lmgrd) 
+ 7:35:22 (lmgrd)   This log is intended for debug purposes only.
+ 7:35:22 (lmgrd)   In order to capture accurate license
+ 7:35:22 (lmgrd)   usage data into an organized repository,
+ 7:35:22 (lmgrd)   please enable report logging. Use Flexera's
+ 7:35:22 (lmgrd)   software license administration  solution,
+ 7:35:22 (lmgrd)   FlexNet Manager, to  readily gain visibility
+ 7:35:22 (lmgrd)   into license usage data and to create
+ 7:35:22 (lmgrd)   insightful reports on critical information like
+ 7:35:22 (lmgrd)   license availability and usage. FlexNet Manager
+ 7:35:22 (lmgrd)   can be fully automated to run these reports on
+ 7:35:22 (lmgrd)   schedule and can be used to track license
+ 7:35:22 (lmgrd)   servers and usage across a heterogeneous
+ 7:35:22 (lmgrd)   network of servers including Windows NT, Linux
+ 7:35:22 (lmgrd)   and UNIX.
+ 7:35:22 (lmgrd) 
+ 7:35:22 (lmgrd) -----------------------------------------------
+ 7:35:22 (lmgrd) 
+ 7:35:22 (lmgrd) 
+ 7:35:22 (lmgrd) Server's System Date and Time: Sun Jun 14 2020 07:35:22 Pacific Daylight Time
+ 7:35:22 (lmgrd) pid 5272
+ 7:35:22 (lmgrd) SLOG: Summary LOG statistics is enabled.
+ 7:35:23 (lmgrd) Done rereading
+ 7:35:23 (lmgrd) FlexNet Licensing (v11.16.2.1 build 245043 i86_n3) started on cc-GIS (IBM PC) (6/14/2020)
+ 7:35:23 (lmgrd) Copyright (c) 1988-2018 Flexera. All Rights Reserved.
+ 7:35:23 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+ 7:35:23 (lmgrd) lmdown/lmreread only allowed on this machine
+ 7:35:23 (lmgrd) License file(s): C:\Program Files (x86)\ArcGIS\LicenseManager\bin\service.txt
+ 7:35:23 (lmgrd) lmgrd tcp-port 27000
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) Start-Date: Sun Jun 14 2020 07:35:23 Pacific Daylight Time
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) PID: 5272
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.16.2.1 build 245043 i86_n3 ( build 245043 (ipv6))
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) 
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) Listening port: 27000
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) 
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) Is LS run as a service: Yes
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c C:\Program Files (x86)\ArcGIS\LicenseManager\bin\service.txt -l C:\Program Files (x86)\ArcGIS\LicenseManager\bin\lmgrd9.log -z -s -local 
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  C:\Program Files (x86)\ArcGIS\LicenseManager\bin\service.txt
+ 7:35:23 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 7:35:23 (lmgrd) SLOG: FNPLS-INTERNAL-VL1-4096
+ 7:35:23 (lmgrd) Starting vendor daemons ... 
+ 7:35:24 (lmgrd) Started ARCGIS (pid 5328)
+ 7:35:29 (ARCGIS) FlexNet Licensing version v11.16.2.1 build 245043 i86_n3
+ 7:35:30 (ARCGIS) SLOG: Summary LOG statistics is enabled.
+ 7:35:30 (ARCGIS) SLOG: FNPLS-INTERNAL-CKPT1
+ 7:35:30 (ARCGIS) SLOG: VM Status: 1
+ 7:35:30 (ARCGIS) SLOG: FNPLS-INTERNAL-CKPT5
+ 7:35:30 (ARCGIS) SLOG: TPM Status: 2
+ 7:35:30 (ARCGIS) SLOG: FNPLS-INTERNAL-CKPT6
+ 7:35:31 (ARCGIS) Server started on cc-GIS for:	ACT		
+ 7:35:31 (ARCGIS) ARC/INFO	ArcStorm	ArcStormEnable	
+ 7:35:31 (ARCGIS) desktopAdvP	Grid		MrSID		
+ 7:35:31 (ARCGIS) Plotting	spatialAnalystP TIFFLZW		
+ 7:35:31 (ARCGIS) EXTERNAL FILTERS are OFF
+ 7:35:31 (lmgrd) ARCGIS using TCP-port 49782
+ 7:35:31 (ARCGIS) SLOG: Statistics Log Frequency is 240 minute(s).
+ 7:35:31 (ARCGIS) SLOG: TS update poll interval is 600 seconds.
+ 7:35:31 (ARCGIS) SLOG: Activation borrow reclaim percentage is 0.
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) === Vendor Daemon ===
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) Vendor daemon: ARCGIS
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) Start-Date: Sun Jun 14 2020 07:35:31 Pacific Daylight Time
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) PID: 5328
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) VD Version: v11.16.2.1 build 245043 i86_n3 ( build 245043 (ipv6))
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) === Startup/Restart Info ===
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) Options file used: None
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) Is vendor daemon a CVD: No
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) Is FlexNet Licensing Service installed and compatible: Yes
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) FlexNet Licensing Service Version: 11.16.2.1
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) Is TS accessed: Yes
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) TS access time: Sun Jun 14 2020 07:35:30 Pacific Daylight Time
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) Number of VD restarts since LS startup: 0
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) === Network Info ===
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) Listening port: 49782
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) Daemon select timeout (in seconds): 1
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) === Host Info ===
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) Host used in license file: cc-GIS
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) HostID node-locked in license file: NA
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) HostID of the License Server: 0050569b7b56
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) Running on Hypervisor: VMWare
+ 7:35:31 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 7:53:29 (ARCGIS) TCP_NODELAY NOT enabled
+ 7:53:29 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 8:10:17 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 8:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 9:10:17 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 9:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:10:17 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+10:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+11:10:17 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 11:35:32 Pacific Daylight Time
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 11:10:17 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1068)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 11:10:17 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1068)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 11:10:17 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1068)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 11:10:17 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1068)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 11:10:17 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1068)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 10:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1276)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 10:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1276)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 10:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1276)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 10:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1276)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 10:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1276)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 11:35:32 Pacific Daylight Time
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 11:35:32 Pacific Daylight Time
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #3 attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+11:35:32 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+11:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+12:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+12:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+13:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+13:35:27 (lmgrd) TIMESTAMP 6/14/2020
+13:40:32 (ARCGIS) TIMESTAMP 6/14/2020
+13:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+14:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+14:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+15:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 15:35:32 Pacific Daylight Time
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 15:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1336)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 15:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1336)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 15:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1336)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 15:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1336)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 15:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1336)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 14:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1340)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 14:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1340)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 14:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1340)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 14:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1340)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 14:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1340)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 15:35:32 Pacific Daylight Time
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 15:35:32 Pacific Daylight Time
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #3 attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+15:35:32 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+15:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+16:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+16:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+17:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+17:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+18:10:17 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+18:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+19:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+19:35:27 (lmgrd) TIMESTAMP 6/14/2020
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 19:35:32 Pacific Daylight Time
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 19:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1280)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 19:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1280)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 19:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1280)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 19:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1280)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 19:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1280)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 18:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1288)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 18:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1288)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 18:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1288)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 18:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1288)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 18:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1288)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 19:35:32 Pacific Daylight Time
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 19:35:32 Pacific Daylight Time
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #3 attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+19:35:32 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+19:45:32 (ARCGIS) TIMESTAMP 6/14/2020
+19:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+20:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+20:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+21:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+21:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+22:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+22:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+23:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 23:35:32 Pacific Daylight Time
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 23:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1372)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 23:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1372)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 23:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1372)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 23:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1372)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 23:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1372)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 22:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1376)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 22:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1376)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 22:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1376)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 22:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1376)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Sun Jun 14 2020 22:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1376)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 23:35:32 Pacific Daylight Time
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Sun Jun 14 2020 23:35:32 Pacific Daylight Time
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #3 attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+23:35:32 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+23:53:29 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 0:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 0:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 1:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 1:35:27 (lmgrd) TIMESTAMP 6/15/2020
+ 1:50:32 (ARCGIS) TIMESTAMP 6/15/2020
+ 1:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 2:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 2:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 3:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 03:35:32 Pacific Daylight Time
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 03:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1452)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 03:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1452)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 03:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1452)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 03:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1452)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 03:10:16 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1452)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 02:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1436)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 02:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1436)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 02:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1436)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 02:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1436)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 02:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1436)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 03:35:32 Pacific Daylight Time
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 03:35:32 Pacific Daylight Time
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #3 attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+ 3:35:32 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 3:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 4:10:17 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 4:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 5:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 5:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 6:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 6:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 7:10:17 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 7:35:28 (lmgrd) TIMESTAMP 6/15/2020
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 07:35:33 Pacific Daylight Time
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 07:10:17 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1572)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 07:10:17 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1572)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 07:10:17 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1572)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 07:10:17 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1572)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 07:10:17 Pacific Daylight Time,#3,(4180K),(dnile,ccat4608,1572)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 06:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1544)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 06:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1544)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 06:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1544)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 06:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1544)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 06:53:27 Pacific Daylight Time,#3,(4180K),(horsnecht,ccis4502,1544)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 07:35:33 Pacific Daylight Time
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 07:35:33 Pacific Daylight Time
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #3 attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+ 7:35:33 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 7:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 7:55:32 (ARCGIS) TIMESTAMP 6/15/2020
+ 8:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 8:35:17 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+ 8:35:34 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+ 8:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 9:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 9:12:17 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+ 9:12:27 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+ 9:12:28 (ARCGIS) UNSUPPORTED: "Tracking" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 9:29:48 (ARCGIS) OUT: "ARC/INFO" istadt@ccat4609  
+ 9:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 9:55:08 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+ 9:55:19 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+ 9:57:07 (ARCGIS) UNSUPPORTED: "Tracking" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:00:22 (ARCGIS) IN: "ARC/INFO" istadt@ccat4609  
+10:00:50 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+10:07:44 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+10:08:14 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+10:08:15 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+10:08:33 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+10:08:34 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+10:08:38 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+10:08:45 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+10:09:34 (ARCGIS) UNSUPPORTED: "Viewer" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:09:34 (ARCGIS) UNSUPPORTED: "Editor" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:09:34 (ARCGIS) UNSUPPORTED: "Viewer" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:09:34 (ARCGIS) UNSUPPORTED: "Editor" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:09:34 (ARCGIS) UNSUPPORTED: "Viewer" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:09:34 (ARCGIS) UNSUPPORTED: "Editor" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:09:34 (ARCGIS) UNSUPPORTED: "Viewer" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:09:34 (ARCGIS) UNSUPPORTED: "Editor" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+10:16:57 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+10:16:58 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+10:17:11 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+10:17:14 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+10:17:15 (ARCGIS) UNSUPPORTED: "Tracking" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:18:20 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+10:18:21 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+10:49:10 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+10:50:47 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+10:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+11:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+11:21:08 (ARCGIS) OUT: "ARC/INFO" istadt@ccat4609  
+11:23:57 (ARCGIS) IN: "ARC/INFO" istadt@ccat4609  
+11:24:02 (ARCGIS) OUT: "ARC/INFO" istadt@ccat4609  
+11:27:23 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 11:35:36 Pacific Daylight Time
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 11:35:26 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1592)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 11:34:02 Pacific Daylight Time,#4,(4316K),(istadt,ccat4609,1616)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 11:33:26 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1592)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 11:32:02 Pacific Daylight Time,#4,(4316K),(istadt,ccat4609,1616)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 11:31:26 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1592)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 11:30:02 Pacific Daylight Time,#4,(4316K),(istadt,ccat4609,1616)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 11:29:26 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1592)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 11:28:02 Pacific Daylight Time,#4,(4316K),(istadt,ccat4609,1616)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 11:27:26 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1592)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 11:27:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 11:35:36 Pacific Daylight Time
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000015 ms at Mon Jun 15 2020 09:13:25 Pacific Daylight Time,#6,(4280K),(dnile,ccat4608,1592)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000015 ms at Mon Jun 15 2020 08:35:34 Pacific Daylight Time,#4,(4212K),(dnile,ccat4608,1604)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000015 ms at Mon Jun 15 2020 09:55:08 Pacific Daylight Time,#8,(4316K),(horsnecht,ccis4502,1528)
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 11:35:36 Pacific Daylight Time
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+11:35:36 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+11:46:56 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+11:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+12:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+12:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+13:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+13:35:31 (lmgrd) TIMESTAMP 6/15/2020
+13:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+14:00:32 (ARCGIS) TIMESTAMP 6/15/2020
+14:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+14:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+14:57:13 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+15:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+15:18:19 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 15:35:36 Pacific Daylight Time
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 15:35:26 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1592)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 15:34:20 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 15:34:03 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 15:33:26 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1592)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 15:32:20 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 15:32:03 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 15:31:26 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1592)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 15:30:20 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 15:30:03 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 15:29:26 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1592)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 15:35:36 Pacific Daylight Time
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 15:35:36 Pacific Daylight Time
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+15:35:36 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+15:50:00 (ARCGIS) IN: "ARC/INFO" istadt@ccat4609  
+15:50:27 (ARCGIS) OUT: "ARC/INFO" istadt@ccat4609  
+15:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+16:02:27 (ARCGIS) IN: "ARC/INFO" istadt@ccat4609  
+16:09:39 (ARCGIS) OUT: "ARC/INFO" istadt@ccat4609  
+16:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+16:14:09 (ARCGIS) IN: "ARC/INFO" istadt@ccat4609  
+16:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+16:55:06 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+17:01:48 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+17:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+17:29:23 (ARCGIS) OUT: "desktopAdvP" bwilson@ccis4501  
+17:31:14 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) bwilson@ccis4501  (No such feature exists. (-5,346))
+17:31:18 (ARCGIS) IN: "desktopAdvP" bwilson@ccis4501  
+17:31:18 (ARCGIS) OUT: "desktopAdvP" bwilson@ccis4501  
+17:31:18 (ARCGIS) IN: "desktopAdvP" bwilson@ccis4501  
+17:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+18:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+18:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+19:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+19:35:32 (lmgrd) TIMESTAMP 6/15/2020
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 19:35:37 Pacific Daylight Time
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1708)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1708)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1708)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1708)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1708)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 18:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1708)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 18:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1708)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 18:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1708)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 18:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1708)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 18:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1708)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 19:35:37 Pacific Daylight Time
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 19:35:37 Pacific Daylight Time
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+19:35:37 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+19:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+20:05:32 (ARCGIS) TIMESTAMP 6/15/2020
+20:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+20:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+21:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+21:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+22:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+22:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+23:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 23:35:37 Pacific Daylight Time
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1708)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1708)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1708)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1708)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1708)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 22:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1600)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 22:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1600)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 22:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1600)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 22:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1600)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Mon Jun 15 2020 22:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1600)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 23:35:37 Pacific Daylight Time
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) Time: Mon Jun 15 2020 23:35:37 Pacific Daylight Time
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+23:35:37 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+23:53:28 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 0:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 0:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 1:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 1:35:32 (lmgrd) TIMESTAMP 6/16/2020
+ 1:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 2:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 2:10:36 (ARCGIS) TIMESTAMP 6/16/2020
+ 2:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 3:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 03:35:37 Pacific Daylight Time
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1868)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1868)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1868)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1868)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1868)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 02:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1856)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000015 ms at Tue Jun 16 2020 02:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1856)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 02:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1856)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 02:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1856)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 02:53:27 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1856)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 03:35:37 Pacific Daylight Time
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 03:35:37 Pacific Daylight Time
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+ 3:35:37 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 3:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 4:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 4:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 5:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 5:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 6:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 6:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 7:10:18 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 7:28:13 (ARCGIS) OUT: "ARC/INFO" pputkey@ccpw4612  
+ 7:35:33 (lmgrd) TIMESTAMP 6/16/2020
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 07:35:38 Pacific Daylight Time
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 07:34:13 Pacific Daylight Time,#3,(4316K),(pputkey,ccpw4612,1912)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 07:32:13 Pacific Daylight Time,#3,(4316K),(pputkey,ccpw4612,1912)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 07:30:13 Pacific Daylight Time,#3,(4316K),(pputkey,ccpw4612,1912)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 07:28:13 Pacific Daylight Time,#3,(4316K),(pputkey,ccpw4612,1912)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 07:28:13 Pacific Daylight Time,#3,(4316K),(pputkey,ccpw4612,1912)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 07:28:13 Pacific Daylight Time,#3,(4316K),(pputkey,ccpw4612,1912)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 07:28:13 Pacific Daylight Time,#3,(4316K),(pputkey,ccpw4612,1912)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 07:28:13 Pacific Daylight Time,#3,(4316K),(pputkey,ccpw4612,1912)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 07:28:13 Pacific Daylight Time,#3,(4316K),(pputkey,ccpw4612,1912)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 07:28:13 Pacific Daylight Time,#3,(4316K),(pputkey,ccpw4612,1912)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 07:35:38 Pacific Daylight Time
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 07:35:38 Pacific Daylight Time
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+ 7:35:38 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 7:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 8:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 8:15:38 (ARCGIS) TIMESTAMP 6/16/2020
+ 8:45:59 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+ 8:46:01 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+ 8:52:24 (ARCGIS) OUT: "ARC/INFO" istadt@ccat4609  
+ 8:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 8:55:14 (ARCGIS) OUT: "desktopAdvP" bwilson@ccis4501  
+ 8:58:07 (ARCGIS) IN: "desktopAdvP" bwilson@ccis4501  
+ 8:58:07 (ARCGIS) OUT: "desktopAdvP" bwilson@ccis4501  
+ 8:58:07 (ARCGIS) IN: "desktopAdvP" bwilson@ccis4501  
+ 9:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 9:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+10:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+11:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 11:35:40 Pacific Daylight Time
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 11:34:25 Pacific Daylight Time,#6,(4316K),(istadt,ccat4609,1992)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 11:34:07 Pacific Daylight Time,#6,(4316K),(dnile,ccat4608,1956)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 11:34:00 Pacific Daylight Time,#6,(4316K),(dnile,ccat4608,1672)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 11:32:25 Pacific Daylight Time,#6,(4316K),(istadt,ccat4609,1992)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 11:32:13 Pacific Daylight Time,#6,(4316K),(pputkey,ccpw4612,1912)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 11:32:07 Pacific Daylight Time,#6,(4316K),(dnile,ccat4608,1956)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 11:32:00 Pacific Daylight Time,#6,(4316K),(dnile,ccat4608,1672)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 11:30:25 Pacific Daylight Time,#6,(4316K),(istadt,ccat4609,1992)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 11:30:13 Pacific Daylight Time,#6,(4316K),(pputkey,ccpw4612,1912)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 11:30:07 Pacific Daylight Time,#6,(4316K),(dnile,ccat4608,1956)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 11:35:40 Pacific Daylight Time
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 11:35:40 Pacific Daylight Time
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+11:35:40 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+11:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+12:10:15 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+12:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+13:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+13:29:25 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+13:29:38 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+13:33:49 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+13:33:50 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+13:35:35 (lmgrd) TIMESTAMP 6/16/2020
+13:44:15 (ARCGIS) IN: "ARC/INFO" istadt@ccat4609  
+13:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+14:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+14:20:39 (ARCGIS) TIMESTAMP 6/16/2020
+14:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+15:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 15:35:44 Pacific Daylight Time
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 15:34:14 Pacific Daylight Time,#5,(4316K),(pputkey,ccpw4612,1912)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 15:34:08 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1956)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 15:34:01 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1672)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 15:32:14 Pacific Daylight Time,#5,(4316K),(pputkey,ccpw4612,1912)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 15:32:08 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1956)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 15:32:01 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1672)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 15:30:14 Pacific Daylight Time,#5,(4316K),(pputkey,ccpw4612,1912)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 15:30:08 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1956)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 15:30:01 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1672)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 15:28:14 Pacific Daylight Time,#5,(4316K),(pputkey,ccpw4612,1912)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 15:35:44 Pacific Daylight Time
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 15:35:44 Pacific Daylight Time
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+15:35:44 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+15:51:21 (ARCGIS) IN: "ARC/INFO" pputkey@ccpw4612  
+15:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+16:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+16:36:20 (ARCGIS) OUT: "ARC/INFO" pputkey@ccpw4612  
+16:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+16:59:40 (ARCGIS) IN: "ARC/INFO" pputkey@ccpw4612  
+17:02:24 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+17:02:37 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+17:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+17:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+18:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+18:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+19:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+19:35:36 (lmgrd) TIMESTAMP 6/16/2020
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 19:35:46 Pacific Daylight Time
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1788)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1788)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1788)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1788)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1788)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1808)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1808)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1808)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1808)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1808)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 19:35:46 Pacific Daylight Time
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 19:35:46 Pacific Daylight Time
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+19:35:46 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+19:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+20:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+20:25:41 (ARCGIS) TIMESTAMP 6/16/2020
+20:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+21:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+21:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+22:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+22:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+23:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 23:35:47 Pacific Daylight Time
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1864)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1864)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1864)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1864)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1864)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 22:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1848)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 22:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1848)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 22:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1848)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 22:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1848)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Tue Jun 16 2020 22:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1848)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 23:35:47 Pacific Daylight Time
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) Time: Tue Jun 16 2020 23:35:47 Pacific Daylight Time
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) 
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+23:35:47 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+23:53:28 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 0:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 0:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 1:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 1:35:37 (lmgrd) TIMESTAMP 6/17/2020
+ 1:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 2:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 2:30:41 (ARCGIS) TIMESTAMP 6/17/2020
+ 2:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 3:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 03:35:47 Pacific Daylight Time
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1780)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1780)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1780)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1780)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1780)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 02:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1792)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 02:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1792)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 02:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1792)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 02:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1792)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 02:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1792)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 03:35:47 Pacific Daylight Time
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 03:35:47 Pacific Daylight Time
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+ 3:35:47 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 3:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 4:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 4:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 5:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 5:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 6:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 6:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 7:10:17 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 7:35:37 (lmgrd) TIMESTAMP 6/17/2020
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 07:35:48 Pacific Daylight Time
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 07:10:17 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1744)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 07:10:17 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1744)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000015 ms at Wed Jun 17 2020 07:10:17 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1744)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 07:10:17 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1744)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 07:10:17 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1744)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 06:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1868)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 06:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1868)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 06:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1868)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 06:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1868)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 06:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1868)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 07:35:48 Pacific Daylight Time
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 07:35:48 Pacific Daylight Time
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+ 7:35:48 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 7:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 8:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 8:34:44 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+ 8:35:43 (ARCGIS) TIMESTAMP 6/17/2020
+ 8:37:39 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+ 8:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 9:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 9:12:50 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+ 9:12:58 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+ 9:12:59 (ARCGIS) UNSUPPORTED: "Tracking" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 9:13:50 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+ 9:13:52 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+ 9:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+10:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+11:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 11:35:50 Pacific Daylight Time
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 11:35:40 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1792)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 11:34:53 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1864)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 11:33:40 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1792)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 11:32:53 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1864)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 11:31:40 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1792)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 11:30:53 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1864)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 11:29:40 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1792)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 11:28:53 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1864)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 11:27:40 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1792)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 11:26:53 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1864)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 11:35:50 Pacific Daylight Time
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 11:35:50 Pacific Daylight Time
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) 
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+11:35:50 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+11:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+12:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+12:30:45 (ARCGIS) OUT: "ARC/INFO" istadt@ccat4609  
+12:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+13:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+13:35:40 (lmgrd) TIMESTAMP 6/17/2020
+13:36:53 (ARCGIS) OUT: "ARC/INFO" istadt@ccat4609  
+13:40:42 (ARCGIS) OUT: "ARC/INFO" pputkey@ccpw4612  
+13:41:29 (ARCGIS) IN: "ARC/INFO" istadt@ccat4609  
+13:45:59 (ARCGIS) IN: "ARC/INFO" istadt@ccat4609  
+13:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+13:58:11 (ARCGIS) IN: "ARC/INFO" pputkey@ccpw4612  
+14:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+14:33:50 (ARCGIS) OUT: "ARC/INFO" istadt@ccat4609  
+14:40:45 (ARCGIS) TIMESTAMP 6/17/2020
+14:50:48 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+14:50:58 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+14:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+14:53:42 (ARCGIS) IN: "ARC/INFO" istadt@ccat4609  
+14:53:44 (ARCGIS) OUT: "ARC/INFO" istadt@ccat4609  
+14:55:25 (ARCGIS) IN: "ARC/INFO" istadt@ccat4609  
+15:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+15:17:09 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+15:17:14 (ARCGIS) OUT: "ARC/INFO" horsnecht@ccis4502  
+15:17:36 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+15:17:36 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+15:30:56 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+15:30:57 (ARCGIS) IN: "ARC/INFO" horsnecht@ccis4502  
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 15:35:53 Pacific Daylight Time
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 15:34:53 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1864)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 15:33:40 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1792)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 15:32:53 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1864)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 15:31:40 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1792)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 15:30:53 Pacific Daylight Time,#6,(4316K),(dnile,ccat4608,1864)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 15:30:48 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1740)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 15:29:40 Pacific Daylight Time,#6,(4316K),(dnile,ccat4608,1792)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 15:28:53 Pacific Daylight Time,#6,(4316K),(dnile,ccat4608,1864)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 15:28:48 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1740)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 15:27:40 Pacific Daylight Time,#6,(4316K),(dnile,ccat4608,1792)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 15:35:53 Pacific Daylight Time
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 15:35:53 Pacific Daylight Time
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) 
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+15:35:53 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+15:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+16:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+16:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+17:01:29 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+17:01:42 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+17:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+17:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+18:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+18:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+19:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+19:35:42 (lmgrd) TIMESTAMP 6/17/2020
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 19:35:57 Pacific Daylight Time
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1740)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1740)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1740)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1740)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1740)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1740)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1740)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1740)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1740)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1740)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 19:35:57 Pacific Daylight Time
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 19:35:57 Pacific Daylight Time
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) 
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+19:35:57 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+19:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+20:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+20:45:47 (ARCGIS) TIMESTAMP 6/17/2020
+20:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+21:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+21:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+22:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+22:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+23:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 23:36:01 Pacific Daylight Time
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1496)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1496)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1496)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1496)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 23:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1496)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 22:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1516)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 22:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1516)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 22:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1516)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 22:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1516)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Wed Jun 17 2020 22:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1516)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 23:36:01 Pacific Daylight Time
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) Time: Wed Jun 17 2020 23:36:01 Pacific Daylight Time
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) 
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+23:36:01 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+23:53:28 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 0:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 0:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 1:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 1:35:46 (lmgrd) TIMESTAMP 6/18/2020
+ 1:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 2:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 2:50:47 (ARCGIS) TIMESTAMP 6/18/2020
+ 2:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 3:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 03:36:02 Pacific Daylight Time
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1460)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1460)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1460)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1460)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 03:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1460)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 02:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1512)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 02:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1512)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 02:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1512)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 02:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1512)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 02:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1512)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 03:36:02 Pacific Daylight Time
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 03:36:02 Pacific Daylight Time
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) 
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+ 3:36:02 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 3:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 4:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 4:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 5:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 5:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 6:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 6:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 7:10:17 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 7:35:48 (lmgrd) TIMESTAMP 6/18/2020
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 07:36:03 Pacific Daylight Time
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 07:10:17 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1444)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 07:10:17 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1444)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 07:10:17 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1444)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 07:10:17 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1444)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 07:10:17 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1444)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 06:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1424)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 06:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1424)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 06:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1424)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 06:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1424)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 06:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1424)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 07:36:03 Pacific Daylight Time
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 12:12:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 07:36:03 Pacific Daylight Time
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) 
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+ 7:36:03 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+ 7:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 8:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 8:41:56 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+ 8:46:14 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+ 8:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+ 8:55:50 (ARCGIS) TIMESTAMP 6/18/2020
+ 9:03:04 (ARCGIS) OUT: "ARC/INFO" pputkey@ccpw4612  
+ 9:05:35 (ARCGIS) IN: "ARC/INFO" pputkey@ccpw4612  
+ 9:06:12 (ARCGIS) OUT: "ARC/INFO" pputkey@ccpw4612  
+ 9:10:17 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+ 9:13:08 (ARCGIS) IN: "ARC/INFO" pputkey@ccpw4612  
+ 9:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+10:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+10:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+11:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+11:19:07 (ARCGIS) OUT: "desktopAdvP" bwilson@ccis4501  
+11:20:47 (ARCGIS) IN: "desktopAdvP" bwilson@ccis4501  
+11:20:47 (ARCGIS) OUT: "desktopAdvP" bwilson@ccis4501  
+11:20:47 (ARCGIS) IN: "desktopAdvP" bwilson@ccis4501  
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 11:36:03 Pacific Daylight Time
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 11:35:27 Pacific Daylight Time,#9,(4316K),(bwilson,cc-GIS,1380)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 11:35:27 Pacific Daylight Time,#9,(4316K),(bwilson,cc-GIS,1380)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 11:35:27 Pacific Daylight Time,#9,(4316K),(bwilson,cc-GIS,1380)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 11:35:27 Pacific Daylight Time,#9,(4316K),(bwilson,cc-GIS,1380)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 11:35:27 Pacific Daylight Time,#9,(4316K),(bwilson,cc-GIS,1380)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 11:35:27 Pacific Daylight Time,#9,(4316K),(bwilson,cc-GIS,1380)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 11:35:27 Pacific Daylight Time,#9,(4316K),(bwilson,cc-GIS,1380)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 11:35:27 Pacific Daylight Time,#9,(4316K),(bwilson,cc-GIS,1380)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 11:35:27 Pacific Daylight Time,#9,(4316K),(bwilson,cc-GIS,1380)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 11:35:27 Pacific Daylight Time,#9,(4316K),(bwilson,cc-GIS,1380)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 11:36:03 Pacific Daylight Time
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000047 ms at Thu Jun 18 2020 11:35:07 Pacific Daylight Time,#8,(4316K),(bwilson,cc-GIS,1380)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 11:36:03 Pacific Daylight Time
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) 
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+11:36:03 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+11:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+12:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+12:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+13:01:54 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+13:10:17 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+13:10:45 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+13:11:55 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+13:14:19 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+13:14:24 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+13:35:51 (lmgrd) TIMESTAMP 6/18/2020
+13:53:27 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+14:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+14:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+14:57:18 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+15:00:51 (ARCGIS) TIMESTAMP 6/18/2020
+15:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 15:36:04 Pacific Daylight Time
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 15:35:19 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1304)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 15:34:06 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1536)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 15:33:19 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1304)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 15:32:06 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1536)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 15:31:19 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1304)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 15:30:06 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1536)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 15:29:19 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1304)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 15:28:06 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1536)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 15:27:19 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1304)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 15:26:06 Pacific Daylight Time,#4,(4316K),(dnile,ccat4608,1536)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 15:36:04 Pacific Daylight Time
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000047 ms at Thu Jun 18 2020 11:35:07 Pacific Daylight Time,#8,(4316K),(bwilson,cc-GIS,1380)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 15:36:04 Pacific Daylight Time
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) 
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+15:36:04 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+15:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+16:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+16:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+17:00:16 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+17:00:20 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+17:00:29 (ARCGIS) OUT: "ARC/INFO" dnile@ccat4608  
+17:00:35 (ARCGIS) IN: "ARC/INFO" dnile@ccat4608  
+17:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+17:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+18:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+18:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+19:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+19:35:51 (lmgrd) TIMESTAMP 6/18/2020
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 19:36:06 Pacific Daylight Time
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1112)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1112)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1112)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1112)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 19:10:16 Pacific Daylight Time,#3,(4316K),(dnile,ccat4608,1112)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1384)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1384)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1384)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1384)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000000 ms at Thu Jun 18 2020 18:53:26 Pacific Daylight Time,#3,(4316K),(horsnecht,ccis4502,1384)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 19:36:06 Pacific Daylight Time
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000047 ms at Thu Jun 18 2020 11:35:07 Pacific Daylight Time,#8,(4316K),(bwilson,cc-GIS,1380)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:29 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1620)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:17 Pacific Daylight Time,#5,(4280K),(horsnecht,ccis4502,1608)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:12:28 Pacific Daylight Time,#6,(4280K),(horsnecht,ccis4502,1608)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 09:50:18 Pacific Daylight Time,#7,(4280K),(horsnecht,ccis4502,1608)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:16:38 Pacific Daylight Time,#6,(4316K),(horsnecht,ccis4502,1640)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:49:10 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1540)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:46:56 Pacific Daylight Time,#5,(4316K),(dnile,ccat4608,1620)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 11:58:02 Pacific Daylight Time,#5,(4316K),(istadt,ccat4609,1616)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 00000016 ms at Mon Jun 15 2020 10:08:38 Pacific Daylight Time,#5,(4316K),(horsnecht,ccis4502,1640)
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) Time: Thu Jun 18 2020 19:36:06 Pacific Daylight Time
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) In-house operation time, when, #concurrent clients
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) === Active Connections Info ===
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) Peak active connections #9 attempted at Mon Jun 15 2020 09:55:19 Pacific Daylight Time
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) 
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) === Memory Usage Info ===
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) Peak private bytes 4352K attempted at Sun Jun 14 2020 07:53:29 Pacific Daylight Time
+19:36:06 (ARCGIS) (@ARCGIS-SLOG@) ===============================================
+19:53:26 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) horsnecht@ccis4502  (No such feature exists. (-5,346))
+20:10:16 (ARCGIS) UNSUPPORTED: "indexserver" (PORT_AT_HOST_PLUS   ) dnile@ccat4608  (No such feature exists. (-5,346))
+22:46:39 (telelogic) DENIED: DOORS indkach@indkach  [telelogic] (Licensed number of users already reached. (-4,342:10054 ))
+22:46:39 (telelogic) DENIED: DOORS indkach@indkach  [telelogic] (Licensed number of users already reached. (-4,342:10054 ))
+22:46:39 (telelogic) OUT: TLSTOK-token indkach@indkach  [DOORS] (3 licenses)

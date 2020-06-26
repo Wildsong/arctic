@@ -1,0 +1,5 @@
+paho-mqtt
+autopep8>=1.5
+flask>=1.1
+flask-bootstrap>=3.3
+opencv>=4.3

@@ -14,3 +14,8 @@ npm start
 ```
 to launch node and open a brower on http://localhost:1234/
 
+### Resources
+
+[OpenCV documentation (https://docs.opencv.org/4.2.0/)]
+
+
