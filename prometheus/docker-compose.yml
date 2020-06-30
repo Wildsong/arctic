@@ -1,0 +1,65 @@
+version: '3.6'
+services:
+  prometheus:
+    container_name: prometheus
+    image: bitnami/prometheus:latest
+    env_file: .env
+    environment:
+      VIRTUAL_HOST: ${PROMETHEUS_VIRTUAL_HOST}
+      VIRTUAL_PORT: 9090
+      NETWORK_ACCESS: internal
+      LETSENCRYPT_HOST: ${prometheus_VIRTUAL_HOST}
+      LETSENCRYPT_MAIL: ${MY_EMAIL}
+    volumes:
+      - prometheus_config:/opt/bitnami/prometheus/conf
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    restart: unless-stopped
+
+    networks:
+      proxy_net:
+        aliases:
+          - prometheus
+    expose:
+      - "9090"
+    ports:
+      - "9090:9090"
+    build:
+      context: .
+      dockerfile: Dockerfile.prometheus
+
+  grafana:
+    container_name: prometheus_grafana
+    image: grafana/grafana:latest
+    env_file: .env
+    environment:
+      VIRTUAL_HOST: ${GRAFANA_VIRTUAL_HOST}
+      VIRTUAL_PORT: 3000
+      LETSENCRYPT_HOST: ${GRAFANA_VIRTUAL_HOST}
+      LETSENCRYPT_MAIL: ${MY_EMAIL}
+      NETWORK_ACCESS: internal
+      GF_INSTALL_PLUGINS: "grafana-clock-panel,grafana-simple-json-datasource"
+    networks:
+      proxy_net:
+        aliases:
+          - grafana
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    restart: unless-stopped
+
+volumes:
+  prometheus_config:
+    name: prometheus_config
+  grafana_data:
+    name: prometheus_grafana_data
+
+networks:
+  proxy_net:
+    name: proxy_net
+    external: true

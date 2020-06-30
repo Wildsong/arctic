@@ -6,6 +6,27 @@ Dashboard for ArcGIS Online/ArcGIS Portal.
 This is totally just a dev project at the moment where I am
 testing out ideas.
 
+At the moment I am looking at Prometheus + Grafana in Docker.
+See the README in the prometheus/ folder.
+
+## Set up
+
+### Conda environment for Python packages
+
+When running on a system with ArcGIS Pro installed,
+VS Code is happier if you clone the ESRI environment.
+You will get DLL errors and complaints about pandas if you don't
+
+```bash
+    # If you have Pro installled
+    conda create --name=arctic --clone=arcgispro-py3
+    # If you don't
+    conda create --name=arctic
+    # Either way, activate the environment and add the rest
+    conda activate arctic
+    conda install --file=requirements.txt
+```
+
 ## FlexLM
 
 I am now adding support for the ESRI LicenseManager (flexlm)
