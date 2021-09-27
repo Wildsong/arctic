@@ -20,12 +20,8 @@ Ports in use are 1883 and 9001.
 
 ## Launch
 
-I use docker-compose so I use "docker-compose up"
-but this is how you might do it without docker-compose, for instance to test.
-
-```bash
-docker run -it -p 1883:1883 -p 9001:9001 -v `pwd`/mosquitto.conf:/mosquitto/config/mosquitto.conf eclipse-mosquitto
-```
+I often use docker-compose so I use "docker-compose up -d"
+or with swarm it's "docker stack deploy -c docker-compose.yml mosquitto"
 
 ## Testing
 
