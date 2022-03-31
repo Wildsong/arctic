@@ -39,3 +39,15 @@ Basic docs https://grafana.com/docs/grafana/latest
 
 Docker config 
 https://grafana.com/docs/grafana/latest/installation/configure-docker/
+Okay, Docker is great but I am also using a conda environment for local testing.
+
+```bash
+conda create arctic
+conda activate arctic
+conda install --file=requirements.txt
+```
+
+This project is not reliant on ArcGIS Pro, so if you have AGP installed and it instructs you to clone the AGP environment, DON'T. You can update instead.
+```bash
+conda update --all
+```
