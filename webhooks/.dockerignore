@@ -1,0 +1,10 @@
+Dockerfile*
+docker-compose.yml
+tests/
+README.msodbcsql
+sample.env
+.env
+.git/
+.gitignore
+.vscode/
+app/static

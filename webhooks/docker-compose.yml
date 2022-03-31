@@ -1,0 +1,35 @@
+version: "3.7"
+
+#networks:
+#  proxy_net:
+#    name: proxy_net
+#    external: true
+
+services:
+  flask:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+    # If this file is not set up correctly, database access will fail.
+      - .env
+    environment:
+      - PYTHONPATH=/srv
+      - FLASK_APP=start_webhooks
+      - FLASK_ENV=development
+    ports:
+      - 9443:9443
+    user: app
+#    networks:
+#      proxy_net:
+#        aliases:
+
+    # for docker-compose
+    restart: unless-stopped
+
+    # Uncomment for testing only; in production
+    # copy the files right into the image at build time
+    # and run waitress not flask. 
+    command: flask run -h 0.0.0.0 -p 9443 --cert=adhoc
+    volumes:
+      - .:/srv:ro

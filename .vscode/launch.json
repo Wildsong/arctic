@@ -1,0 +1,44 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Python: Flask webhooks",
+      "type": "python",
+      "request": "launch",
+      "module": "flask",
+      "cwd": "/home/gis/source/repos/arctic/webhooks",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "FLASK_APP": "start_webhooks",
+        "FLASK_ENV": "development"
+      },
+      // Run me as a flask app, ignores waitress startup code.
+      "args": [
+        "run",
+        "-p 9443",
+        "--cert=adhoc" // has to support HTTPS
+      ],
+      "jinja": true,
+      "console": "internalConsole",
+      // Launch a browser and hand it our URL after flask starts.
+      // This works even on remote connections because vscode forwards ports!
+      "serverReadyAction": {
+        "pattern": "Running on (https?://[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+:[0-9]+)",
+        "uriFormat": "%s",
+        "action": "openExternally"
+      }
+    },
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "internalConsole"
+    }
+  ]
+}

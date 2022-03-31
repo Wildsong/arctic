@@ -3,11 +3,16 @@
 ## Overview
 Dashboard for ArcGIS Online/ArcGIS Portal.
 
-This is totally just a dev project at the moment where I am
-testing out ideas.
+This is totally just a brainstorming project.
+I am still testing ideas so nothing is workable yet.
 
-At the moment I am looking at Prometheus + Grafana in Docker.
-See the README in the prometheus/ folder.
+Today (29-Mar-22) I got an urge to try Webhooks so, see the README in the webhooks/ folder.
+I think that it will end up being a microservice that catches events from
+Enterprise and publishes them via MQTT.
+Hence the mqtt_broker/ and mqtt_test/ folders, which I have not look at for a few months.
+
+For Prometheus + Grafana in Docker, 
+see the README in the prometheus/ folder.
 
 ## Set up
 
