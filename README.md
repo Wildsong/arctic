@@ -3,8 +3,7 @@
 ## Overview
 Dashboard for ArcGIS Online/ArcGIS Portal.
 
-This is totally just a brainstorming project.
-I am still testing ideas so nothing is workable yet.
+This is a sandbox at the moment where I am testing out some ideas.
 
 Today (29-Mar-22) I got an urge to try Webhooks so, see the README in the webhooks/ folder.
 I think that it will end up being a microservice that catches events from
@@ -18,18 +17,14 @@ see the README in the prometheus/ folder.
 
 ### Conda environment for Python packages
 
-When running on a system with ArcGIS Pro installed,
-VS Code is happier if you clone the ESRI environment.
-You will get DLL errors and complaints about pandas if you don't
-
 ```bash
-    # If you have Pro installled
-    conda create --name=arctic --clone=arcgispro-py3
-    # If you don't
-    conda create --name=arctic
-    # Either way, activate the environment and add the rest
-    conda activate arctic
-    conda install --file=requirements.txt
+On Windows, use the old Python to avoid DLL errors.
+    conda create --name=arctic --file=requirements.txt -c conda-forge python=3.7.9
+
+On Linux, 
+    conda create --name=arctic --file=requirements.txt -c conda-forge 
+
+conda activate arctic
 ```
 
 ## FlexLM
