@@ -1,20 +1,25 @@
 import React from 'react';
-import PropTypes from 'prop-types'
-import {ListItems, Navbar} from './components'
+import { Admin, ContentManager, Login, Navbar, Search } from './components'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
-const App = ({title}) => {
+const App = () => {
     return (
         <>
-        <h1>{title}</h1>
-        <Navbar/>
-        <ListItems/>
+            <h1>arctic geoportal</h1>
+            <Navbar/>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<ContentManager />} />
+                    <Route path="/admin" element={<Admin />} />
+                    <Route path="/search" element={<Search />} />
+                    <Route path="/login" element={<Login />} />
+                </Routes>
+            </BrowserRouter>
+        
         </>
     );
 }
-App.propTypes = {
-    "title": PropTypes.string.isRequired
-};
 export default App;

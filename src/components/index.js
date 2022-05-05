@@ -1,2 +1,5 @@
-export {default as ListItems} from './listitems'
-export {default as Navbar} from './Navbar'
+export { default as Admin } from './Admin'
+export {default as ContentManager} from './ContentManager'
+export { default as Login } from './Login'
+export { default as Navbar } from './Navbar'
+export { default as Search } from './Search'

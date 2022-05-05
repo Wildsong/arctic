@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from 'react';  // eslint-disable-line no-unused-vars
 import {getItem} from '@esri/arcgis-rest-portal'
 
-const ListItems = () => {
+const ContentManager = () => {
     let id = "0"
 
-    const url = "https://delta.co.clatsop.or.us/server/rest/"
+    const url = "https://delta.co.clatsop.or.us/"
 
     getItem(id)
         .then(response => {
@@ -13,8 +13,11 @@ const ListItems = () => {
 
     return (
         <>
-        stuff in a list
+            <h2>Content Manager</h2>
+            <div>
+                Upload
+            </div>
         </>
     );
 }
-export default ListItems;
+export default ContentManager;

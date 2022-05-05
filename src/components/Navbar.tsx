@@ -1,10 +1,15 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import { Container, Nav, NavDropdown } from 'react-bootstrap'
 
 const Navbar = () => {
     return (
         <Container>
-                    Home Gallery Map Groups Content Organization Search Notification Apps Login
+            Home
+            Admin
+            Search
+            Login
+            Signed in to: Delta
         </Container>
     )
 }
+export default Navbar;
