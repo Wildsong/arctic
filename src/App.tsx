@@ -1,16 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types'
-import {BrowserRouter as Router, Route, NavLink} from "react-router-dom" // eslint-disable-line no-unused-vars
-import {ListItems} from '../components'
+import {ListItems, Navbar} from './components'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './App.scss';
 
 const App = ({title}) => {
     return (
         <>
         <h1>{title}</h1>
-
+        <Navbar/>
         <ListItems/>
         </>
     );
