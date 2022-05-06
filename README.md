@@ -65,4 +65,5 @@ to launch node and open a brower on http://localhost:1234/
 
 [OpenCV documentation](https://docs.opencv.org/4.2.0/)
 
+[React Routing and Components for Signup and Login](https://saasitive.com/tutorial/react-routing-components-signup-login/)
 
