@@ -6,19 +6,6 @@ import { Admin, ContentManager, Login, Search } from '.'
 const Navbar = () => {
     return (
         <>
-            <Router>
-                <Routes>
-                    <Route path="/" element={<ContentManager />} />
-                    <Route path="/admin" element={<Admin />} />
-                    <Route path="/search" element={<Search />} />
-                    <Route path="/login" element={<Login />} />
-                </Routes>
-                <NavLink to="/">Content Manager</NavLink>
-                <NavLink to="/admin">Admin</NavLink>
-                <NavLink to="/search">Search</NavLink>
-                <NavLink to="/login">Login</NavLink>
-                Signed in to: Delta
-            </Router>
         </>
     )
 }
