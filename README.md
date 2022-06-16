@@ -130,3 +130,12 @@ do any scene / 3D stuff yet so they are probably empty.
 
 [React Routing and Components for Signup and Login](https://saasitive.com/tutorial/react-routing-components-signup-login/)
 
+
+[ArcGIS JavaScript API](https://developers.arcgis.com/javascript/latest/)  
+[Portal access](https://developers.arcgis.com/javascript/latest/arcgis-organization-portals/) 
+
+[ArcGIS REST API](https://developers.arcgis.com/rest/)  
+[Web Map Specification](https://developers.arcgis.com/web-map-specification/)   
+[load_web_map sample](https://developers.arcgis.com/javascript/latest/sample-code/webmap-basic/)  
+[save_web_map sample](https://developers.arcgis.com/javascript/latest/sample-code/webmap-save/)  
+
