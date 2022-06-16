@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block title %}PPE update data entry form{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>PPE update for Clatsop County</h1>
+</div>
+<form action="" method="post" novalidate>
+    {{ form.hidden_tag() }}
+    
+    <input type="hidden" name="n95_comnplete" value="{{form.n95_complete.data}}" />
+    <input type="hidden" name="mask_comnplete" value="{{form.mask_complete.data}}" />
+    <input type="hidden" name="glove_comnplete" value="{{form.glove_complete.data}}" />
+    <input type="hidden" name="coverall_comnplete" value="{{form.coverall_complete.data}}" />
+    <input type="hidden" name="gown_comnplete" value="{{form.gown_complete.data}}" />
+    <input type="hidden" name="goggle_comnplete" value="{{form.goggle_complete.data}}" />
+    <input type="hidden" name="sanitizer_comnplete" value="{{form.sanitizer_complete.data}}" />
+    <input type="hidden" name="shield_comnplete" value="{{form.shield_complete.data}}" />
+
+    <table>
+        <tr>
+            <td>Date/Time</td>
+            <td><input type="text" name="datestamp" value="{{form.datestamp.data}}" /> <br />**use 24hr time not am/pm</td>
+            <td><i>{{form.old_date}}</i></td>
+        </tr>
+        <tr>
+            <td>Facility</td>
+            <td><input type="text" name="facility" value="{{form.facility.data}}" /></td>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Amount</th>
+            <th>24 hour use</th>
+            <th>Goal</th>
+        </tr>
+        <tr>
+            <td>N95 masks </td>
+            <td><input type="number" name="n95" value="{{form.n95.data}}" /></td>
+            <td><input type="number" name="n95_burn" value="{{form.n95_burn.data}}" /></td>
+            <td><input type="number" name="n95_goal" value="{{form.n95_goal.data}}" /></td>
+
+        </tr>
+        <tr>
+            <td>Surgical masks </td>
+            <td><input type="number" name="mask" value="{{form.mask.data}}" /></td>
+            <td><input type="number" name="mask_burn" value="{{form.mask_burn.data}}" /></td>
+            <td><input type="number" name="mask_goal" value="{{form.mask_goal.data}}" /></td>
+        </tr>
+        <tr>
+            <td>Gloves </td>
+            <td><input type="number" name="glove" value="{{form.glove.data}}" /></td>
+            <td><input type="number" name="glove_burn" value="{{form.glove_burn.data}}" /></td>
+            <td><input type="number" name="glove_goal" value="{{form.glove_goal.data}}" /></td>
+        </tr>
+        <tr>
+            <td>Gowns </td>
+            <td><input type="number" name="gown" value="{{form.gown.data}}" /></td>
+            <td><input type="number" name="gown_burn" value="{{form.gown_burn.data}}" /></td>
+            <td><input type="number" name="gown_goal" value="{{form.gown_goal.data}}" /></td>
+        </tr>
+        <tr>
+            <td>Sanitizer </td>
+            <td><input type="number" name="sanitizer" value="{{form.sanitizer.data}}" /></td>
+            <td><input type="number" name="sanitizer_burn" value="{{form.sanitizer_burn.data}}" /></td>
+            <td><input type="number" name="sanitizer_goal" value="{{form.sanitizer_goal.data}}" /></td>
+        </tr>
+        <tr>
+            <td>Face shields </td>
+            <td><input type="number" name="shield" value="{{form.shield.data}}" /></td>
+            <td><input type="number" name="shield_burn" value="{{form.shield_burn.data}}" /></td>
+            <td><input type="number" name="shield_goal" value="{{form.shield_goal.data}}" />
+        </tr>
+        <tr>
+            <td>Coveralls </td>
+            <td><input type="number" name="coverall" value="{{form.coverall.data}}" /></td>
+            <td><input type="number" name="coverall_burn" value="{{form.coverall_burn.data}}" /></td>
+            <td><input type="number" name="coverall_goal" value="{{form.coverall_goal.data}}" /></td>
+
+    </td>
+        </tr>
+        <tr>
+            <td>Goggles </td>
+            <td><input type="number" name="goggle" value="{{form.goggle.data}}" /></td>
+            <td><input type="number" name="goggle_burn" value="{{form.goggle_burn.data}}" /></td>
+            <td><input type="number" name="goggle_goal" value="{{form.goggle_goal.data}}" /></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td><input type="submit" name="submit" /></td>
+        </tr>
+    </table>
+</form>
+
+<i>Information you enter here will immediately show up on the IMT and public dashboards.</i>
+{% endblock %}

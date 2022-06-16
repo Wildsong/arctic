@@ -1,0 +1,13 @@
+# Sadly arcgis, numpy and DLLs don't get along with python 3.8 on Windows.
+python>=3.7
+flask>=1.1.2
+flask-bootstrap>=3.3
+flask-wtf>=0.14
+flask-debugtoolbar>=0.10.1
+arcgis>=1.9.0
+tzlocal>=2.1
+python-dotenv>=0.15
+bs4>=4.9
+pytz
+gunicorn>=20.0.4
+plotly

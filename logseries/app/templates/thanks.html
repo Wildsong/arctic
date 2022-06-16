@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Thanks{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>Thanks</h1>
+
+    The database has been updated.
+
+<p>
+    {{df.transpose().to_html(header=False, justify="center")|safe}}
+</p>
+
+<iframe title="Clatsop County Daily COVID 19 cases" src="https://capacity.co.clatsop.or.us/cases/index.html">
+</iframe>
+
+</div>
+{% endblock %}

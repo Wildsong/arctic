@@ -37,8 +37,11 @@
       "type": "python",
       "request": "launch",
       "program": "${file}",
+      "console": "internalConsole",
       "envFile": "${workspaceFolder}/.env",
-      "console": "internalConsole"
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}${pathSeparator}${env:PYTHONPATH}"
+      }
     }
   ]
 }
