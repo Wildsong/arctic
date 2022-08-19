@@ -14,6 +14,5 @@ RUN conda install -y --file project_requirements.txt
 
 WORKDIR $SERVER_BASE
 
-EXPOSE 9443
 VOLUME /srv
 
