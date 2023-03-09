@@ -56,7 +56,19 @@ in a docker container.
 This saves me from having to install about 100 node packages
 on the hosting server.
 
-## ArcGIS log files
+## Log files
+
+Processing log files with ArcGIS Enterprise is problematic because the data are split between the web server (I'm using IIS for now),
+Portal, Server, and Data Store.
+
+If you want to trace an activity, for example who is using any given REST based service, then you can't just read one log file.
+If the service is in Server, then you can find requests but they don't log the IP address of the requestor. The "web adaptor" blocks that.
+They need some redesign here to fix this! 
+
+Currently I am thinking about using one of those fancy logging tools that sucks the log files into a database. Apparently I have not
+started making notes on this yet, so I think I will put more notes on this for now at this page: 
+https://wiki.wildsong.biz/index.php?title=Arctic_Logging
+
 ### Cleaning
 
 See [Clean](https://developers.arcgis.com/rest/enterprise-administration/enterprise/clean-logs.htm) for ?everywhere? and [Clean Logs](https://developers.arcgis.com/rest/enterprise-administration/server/cleanlogs.htm) for Server.
