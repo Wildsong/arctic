@@ -1,4 +1,10 @@
-# arctic-monitor
+# flexlm
+
+2023-03-09 
+This used to be a separate project called "arctic-monitor", today I rolled it into Arctic
+I tried running this container on Windows Desktop (in a Linux docker) and it could not connect to the real license server. Whatever. Weird use case anyway.
+I tried to update the stage 2 os to use Debian 11 and failed.
+I updated it to run the 2022 license manager. That worked. Finally something worked.
 
 2022-06 I am working on turning this into a microservice instead of a full web page,
 so the web page you can load at port 5000 is no longer as pretty as it used to be.

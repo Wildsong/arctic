@@ -52,8 +52,9 @@ RUN adduser flexlm && \
 USER flexlm
 WORKDIR /home/flexlm
 
-COPY ArcGIS_License_Manager_Linux_2021.0_177950.tar.gz LicenseManager.tar.gz
-#COPY ArcGIS_License_Manager_Linux_2022_1_184756.tar.gz LicenseManager.tar.gz
+# Tested with each of these, 2023-03-09
+#COPY ArcGIS_License_Manager_Linux_2021.0_177950.tar.gz LicenseManager.tar.gz
+COPY ArcGIS_License_Manager_Linux_2022_1_184756.tar.gz LicenseManager.tar.gz
 
 RUN tar xzvf LicenseManager.tar.gz && \
     cd LicenseManager_Linux && \
