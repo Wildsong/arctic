@@ -1,4 +1,4 @@
-# geodatabase
+# geodatabase_api
 
 This is an api that returns information about an Esri geodatabase server.
 
@@ -6,19 +6,22 @@ Currently it just returns a table about compressions.
 
 ## The obligatory screenshot
 
+Nah not yet
 ![Screenshot](screenshot.png?raw=true "What the web page looks like")
 
 ### Prerequisites
 
+Copy sample.env to .env and edit as needed for your environment.
+
 ### Docker build
 
-Because of the licensing constraints I don't push any image file up to Docker Hub.
-
-Make sure you've downloaded the tar.gz file, see Prerequisites.
-
-Then run the build command to create images for the license manager and the monitor.
+Run the build command to create image for the service.
 
 ```bash
+# faster
+docker buildx build -t arctic-geodatabase-api .
+
+# slower but easier to type
 docker compose build
 ```
 

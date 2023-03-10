@@ -1,28 +1,21 @@
-version: '3.7'
+version: '3.9'
 
 services:
-  monitor:
-    image: arctic-monitor
+  api:
+    image: arctic-geodatabase-api
     build: 
       dockerfile: Dockerfile
       context: .
     environment:
-      LICENSE: /home/flexlm/service.txt
       DBSERVER: ${DBSERVER}
       DATABASE: ${DATABASE}
       DBUSER: ${DBUSER}
       DBPASSWORD: ${DBPASSWORD}
+      # bjoern settings
+      #VARIABLE_NAME: application
+      MODULE_NAME: app.start_server
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
-    ports:
-      - 5000:5000
+    ports: [ "5001:80" ]
     restart: unless-stopped
-#    labels:
-      # I think that when this container starts up,
-      # the 'caddy' container will see it and generate a new Caddyfile
-      # but what happens here?? Does it generate a Caddyfile here too?
-#      caddy: api.${DOMAIN}
-#      caddy.reverse_proxy: "{{upstreams 5000}}"
-#      caddy.tls.protocols: "tls1.3"
-

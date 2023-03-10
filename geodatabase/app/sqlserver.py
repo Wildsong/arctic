@@ -1,7 +1,7 @@
 import pandas as pd
 import pyodbc
 
-class ReadSqlServer(object):
+class ReadCompressionLog(object):
 
     def __init__(self: object, connstr: str) -> None:
         self.conn = pyodbc.connect(connstr)
@@ -31,6 +31,6 @@ if __name__ == "__main__":
     driver = "ODBC Driver 18 for SQL Server"
 
     conn = f"Driver={driver};Server={Config.DBSERVER};Database={Config.DATABASE};uid={Config.DBUSER};pwd={Config.DBPASSWORD};Encrypt=No;"
-    r = ReadSqlServer(conn)
+    r = ReadCompressionLog(conn)
     df = r.read()
     print(df.to_html())
