@@ -85,12 +85,11 @@ FROM tecktron/python-bjoern
 COPY --from=builder /opt/conda /opt/conda
 ENV PATH=/opt/conda/bin:${PATH}
     
-ENV PYTHONPATH /app
-
 COPY --from=builder /home/flexlm/arcgis/licensemanager/bin/lmutil /usr/local/bin/
 ADD lmstat /usr/local/bin/
 ADD service.txt /usr/local/share/
 
+ENV PYTHONPATH /app
 WORKDIR /app
 COPY prestart.sh .
 COPY app app

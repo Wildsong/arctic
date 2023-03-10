@@ -62,8 +62,7 @@ def f_html():
     return generate_html(data_dict)
 
 
-print("Starting service.")
-print("Application is UP.")
+print("Starting web service.")
 
 if __name__ == '__main__':
     

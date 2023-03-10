@@ -6,5 +6,4 @@ echo "prestart says the current directory is" $PWD
 # of the tool chain is working.
 /usr/local/bin/lmstat
 
-env
 
