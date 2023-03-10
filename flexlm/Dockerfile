@@ -1,4 +1,4 @@
-FROM centos:7 as stage1
+FROM centos:7 as builder
 
 # =================================================================
 # STAGE 1 -- Configure a build host and install the license manager
@@ -45,6 +45,19 @@ RUN yum install -y \
  mesa-libGL.i686 \
  mesa-libGLU.i686
 
+# Since the final stage will be running Debian it might be better to add another stage
+# and build the conda portion in Debian instead of CentOS.
+ADD https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh .
+RUN sh Miniconda3-latest-Linux-x86_64.sh -b -p /opt/conda
+ENV PATH=/opt/conda/bin:${PATH}
+ADD conda_requirements.txt ./
+
+# From MapProxy, I left git and pi in here but probably don't need them.
+RUN conda update -n base -c defaults conda && \
+    conda config --add channels conda-forge && \
+    conda install -y --name base pip git --file conda_requirements.txt
+
+# I can use any username here, I suppose
 RUN adduser flexlm && \
     mkdir -p /usr/local/share/macrovision/storage && \
     chmod 777 /usr/local/share/macrovision/storage
@@ -66,42 +79,27 @@ RUN cat arcgis/licensemanager/.Setup/LicenseManager_InstallLog.log
 USER root
 
 # ===========================================
-# STAGE 2 -- install and run the microservice
-# The conda/miniconda3 image is based on Debian Stretch
-FROM conda/miniconda3
-
-# This will upgrade conda, so the fact that the base image is old does not matter
-# flask-bootstrap needs hugo
-RUN conda update -n base -c defaults conda
-RUN conda config --add channels conda-forge && \
-    conda config --add channels hugo && \
-    conda config --add channels Esri
-COPY conda_requirements.txt ./
-RUN conda install --file conda_requirements.txt
-
-RUN adduser flexlm
-WORKDIR /home/flexlm
-COPY --from=stage1 /home/flexlm/arcgis/licensemanager/bin/lmutil .
-
-#RUN cd /lib/lib/x86_64-linux-gnu && \
+# DEPLOYMENT STAGE -- install and run the microservice
+# Note that python-bjoern is running in Debian Bullseye
+FROM tecktron/python-bjoern
+COPY --from=builder /opt/conda /opt/conda
+ENV PATH=/opt/conda/bin:${PATH}
     
-ENV LMHOME /home/flexlm
-ENV LMUTIL /home/flexlm/lmutil
-ENV LICENSE /home/flexlm/service.txt
+ENV PYTHONPATH /app
 
-USER flexlm
+COPY --from=builder /home/flexlm/arcgis/licensemanager/bin/lmutil /usr/local/bin/
+ADD lmstat /usr/local/bin/
+ADD service.txt /usr/local/share/
 
-# Install the microservice
-COPY license_monitor.py .
-COPY read_lmutil.py .
-COPY config.py .
-COPY test.sh .
-COPY start_server.py .
+WORKDIR /app
+COPY prestart.sh .
+COPY app app
 
-#VOLUME /home/flexlm/service.txt
-COPY service.txt .
+# No idea if I need this. It might still matter to someone since it's in builder stage
+RUN mkdir -p /usr/local/share/macrovision/storage && \
+    chmod 777 /usr/local/share/macrovision/storage
 
-EXPOSE 5000
-
-# Run the microservice
-CMD ["python3", "start_server.py"]
+RUN useradd --uid 1000 --create-home --home-dir /srv/arctic arctic && \
+    chfn --full-name "Arctic" arctic
+USER arctic
+WORKDIR /srv/arctic
