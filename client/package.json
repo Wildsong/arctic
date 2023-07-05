@@ -1,0 +1,51 @@
+{
+  "name": "@wildsong/arctic",
+  "author": "Brian Wilson <brian@wildsong.biz>",
+  "license": "gpl-3.0",
+  "version": "0.1.2",
+  "description": "An web management portal for GIS servers",
+  "keywords": [
+    "react",
+    "gis"
+  ],
+  "main": "index.html",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Wildsong/arctic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wildsong/arctic/issues"
+  },
+  "homepage": "https://github.com/Wildsong/arctic#readme",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.16",
+    "@esri/arcgis-rest-portal": "^4.2.0",
+    "@tippyjs/react": "^4.2.6",
+    "bootstrap": "^5.3.0",
+    "graphql": "^16.7.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-data-grid": "^7.0.0-beta.34",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "serve": "^14.2.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
+}
