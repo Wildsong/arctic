@@ -4,6 +4,7 @@
 Dashboard for ArcGIS Online/ArcGIS Portal.
 
 This is a sandbox at the moment where I am testing out some ideas.
+So far all I have here is an attempt at gathering data and graphing.
 
 Today (29-Mar-22) I got an urge to try Webhooks so, see the README in the webhooks/ folder.
 I think that it will end up being a microservice that catches events from
@@ -15,17 +16,6 @@ see the README in the prometheus/ folder.
 
 ## Set up
 
-### Conda environment for Python packages
-
-```bash
-On Windows, use the old Python to avoid DLL errors.
-    conda create --name=arctic --file=requirements.txt -c conda-forge python=3.7.9
-
-On Linux, 
-    conda create --name=arctic --file=requirements.txt -c conda-forge 
-
-conda activate arctic
-```
 
 ## FlexLM
 
@@ -49,17 +39,64 @@ so that you can test connections over the Internet.
 It should be possible to put the MQTT broker behind a reverse proxy
 so that it can be accessed securely over websockets.
 
-## Node
+## GraphQL
 
-** This project currently does NOT use NPM. ** I am not working on that
-part right now.
+MQTT is nifty for IoT but GraphQL makes more sense for this project.
 
-The project uses npm and the parcel bundler. You need to install npm and then
-install parcel globally. (``npm install parcel -g``) Once you have done that, use
-```
-npm start
-```
-to launch node and open a brower on http://localhost:1234/
+## Python for the API (server) side
+
+I am using the Apollo client and wondering if
+I can still use Apollo with a Python backend?
+
+Of COURSE!
+
+https://strawberry.rocks/
+
+https://www.apollographql.com/blog/backend/federation/add-python-to-your-graphql-api-with-graphos-and-strawberry-graphql?referrer=python-strawberry-subgraph
+
+https://www.apollographql.com/blog/graphql/python/complete-api-guide/
+
+### Conda environment for Python packages
+
+2023-07-04 Current version of arcgis is 2.1.0.3
+
+```bash
+
+2023-07-04 update -- still ?? maybe this was fixed in arcgis-2.x ? Trying it.
+My notes say, "On Windows, use the old Python to avoid DLL errors."
+
+    conda create --name=arctic --file=requirements.txt -c conda-forge -c esri python=3.7.9
+
+On Linux, 
+
+    conda create --name=arctic --file=requirements.txt -c conda-forge -c esri
+
+And then on either platform, install all required packages and start a GraphQL server.
+
+    cd server
+    conda activate arctic
+    pip install 'strawberry-graphql[debug-server]'
+    strawberry server schema
+
+Sadly this server does nothing right now. :-) Well. It returns a book title.
+I am thinking I actually will end up needing several,
+one for ArcGIS, one for the FlexLM license manager. Maybe one for MapProxy.
+There's also Prometheus, that might be enough for MapProxy.
+
+## Node on the client (browser) side
+
+The project uses npm. You need to install npm.
+
+    cd client
+    npm install
+    npm start
+
+to launch node and open a browser
+
+## Licenses
+
+Displays information on licenses from FlexLM in a 
+[react-date-grid](https://www.npmjs.com/package/react-data-grid).
 
 ### Resources
 

@@ -1,7 +1,4 @@
-paho-mqtt
 autopep8>=1.5
-opencv>=4.3
-twilio
 black
 coverage
 flake8
