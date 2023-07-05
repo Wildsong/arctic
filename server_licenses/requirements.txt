@@ -3,5 +3,3 @@ black
 coverage
 flake8
 mock
-arcgis
-strawberry
