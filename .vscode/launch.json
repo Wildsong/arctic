@@ -5,11 +5,14 @@
   "version": "0.3.0",
   "configurations": [
       {
-          "type": "chrome", // I think firefox just does not work here
-          "request": "launch",
-          "name": "Debug Node client",
-          "url": "http://localhost:5173",
-          "webRoot": "${workspaceFolder}/client"
+        "type": "chrome", // I think firefox just does not work here
+        "request": "launch",
+        "name": "Debug Arctic client",
+        "url": "http://localhost:8080",
+        "webRoot": "${workspaceFolder}/client",
+        "sourceMapPathOverrides": {
+            "/__parcel_source_root/*": "${webRoot}/*"
+        },
       },
       {
         "type": "python",

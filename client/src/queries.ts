@@ -21,6 +21,6 @@ export const GET_LICENSES = gql`
 
 export const PING = gql`
     query Ping {
-        timestamp
+        ping
     }
 `;

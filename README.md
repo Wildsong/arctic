@@ -76,12 +76,41 @@ And then on either platform, install all required packages and start a GraphQL s
     cd server
     conda activate arctic
     pip install 'strawberry-graphql[debug-server]'
+    pip innstall rich
     strawberry server schema
 
-Sadly this server does nothing right now. :-) Well. It returns a book title.
-I am thinking I actually will end up needing several,
+Runs a test server on port 8000. Connect via browser and send it a ping, like this.
+
+    {
+        ping {
+            timestamp
+        }
+    }
+
+It should respond with something like this.
+
+    {
+        "data": {
+            "ping": {
+            "timestamp": "2023-07-05T15:02:59.334306"
+            }
+        }
+    }
+
+Ask it for some licenses, like this
+
+    {
+        licenses {
+            id
+            product
+        }
+    }
+
+I am thinking I actually will end up needing several GraphQL servers,
 one for ArcGIS, one for the FlexLM license manager. Maybe one for MapProxy.
 There's also Prometheus, that might be enough for MapProxy.
+
+Now that a service is running, run the front end to talk to it.
 
 ## Node on the client (browser) side
 

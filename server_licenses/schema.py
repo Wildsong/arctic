@@ -14,9 +14,7 @@ class Licenses:
 
 def get_ping() -> Ping:
     now = datetime.now()
-    return Ping(
-         timestamp = now
-    )
+    return now
 
 def get_licenses() -> list[Licenses]:
     return [
@@ -30,7 +28,7 @@ def get_licenses() -> list[Licenses]:
 
 @strawberry.type
 class Query:
-    ping: Ping = strawberry.field(resolver=get_ping)
+    ping: str = strawberry.field(resolver=get_ping)
     licenses: list[Licenses] = strawberry.field(resolver=get_licenses)
 
 schema = strawberry.Schema(query=Query)

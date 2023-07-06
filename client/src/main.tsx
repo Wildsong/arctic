@@ -1,10 +1,22 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
+import App from './App'
+import { AppSettings } from '../appSettings'
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+//import configureStore from './src/configureStore'
+//const { store } = configureStore()
+
+const graphqlServer = AppSettings.SERVER;
+
+const client = new ApolloClient({
+    uri: graphqlServer,
+    cache: new InMemoryCache(),
+});
+
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
+root.render(
+    <ApolloProvider client={client}>
+        <App title="Arctic SPA" />
+    </ApolloProvider>
+);

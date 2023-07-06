@@ -21,42 +21,53 @@ const rows = [
 
 const ShowLicenses = () => {
     const { loading, error, data } = useQuery(GET_LICENSES);
-    if (error) return <p>Error : {error.message}</p>;
-    if (loading) return <p>Loading...</p>;
+    if (error) return <>Error : {error.message}</>
+    if (loading) return <>Loading...</>
 
     let columns = data.licenses.map( ({id,product,user,checkout}) => {
-        { key: 'id', name: id }
+        [
+            { key: 'id', name: id },
+            { key: 'product', name: product },
+            { key: 'user', name: user },
+            { key: 'checkout', name: checkout }
+        ]
     });
+    console.log("Licenses", columns)
+
     return (
       <>
-        <DataGrid columns={columns} rows={rows} />
+      nothin
       </>
     );
+    //        <DataGrid columns={columns} rows={rows} />
+
 }
 
 const Ping = () => {
     const { loading, error, data } = useQuery(PING);
     if (loading) return <>Server starting up...</>;
     if (error) return <>Connect failed: {error.message}</>;
-    return (
-      <>
-        <font color="lightgrey">{data.ping}</font>
-      </>
-    );
+    console.log('Ping', data.ping)
+    return <>server timestamp: {data.ping}</>
 }
 
 
 const Licenses = () => {
     return (
+        <>
         <Card>
           <Card.Title>
             ArcGIS Licenses
           </Card.Title>
           <Card.Text>
-            <ShowLicenses/>
+          <ShowLicenses/>
           </Card.Text>
-          <Ping /><br />
+          <Card.Text>
+          <Ping />
+          </Card.Text>
         </Card>
-      );
+
+        </>
+    );
 }
 export default Licenses
