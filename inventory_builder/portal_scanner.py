@@ -1,3 +1,9 @@
+"""
+    The Portal keeps lots of information about its contents,
+    this script gets information from it and puts it into our database.
+"""
+import database
+
 import os
 import json
 from arcgis.gis import GIS
@@ -8,7 +14,7 @@ path, exe = os.path.split(__file__)
 myname = exe + ' ' + VERSION
 
 
-if __name__ == "__main__":
+def scan_portal():
 
     gis = GIS(Config.PORTAL_URL, Config.PORTAL_USER, Config.PORTAL_PASSWORD)
     log = gis.admin.logs
@@ -94,3 +100,8 @@ if __name__ == "__main__":
 
     # parse it
     # show interesting messages
+
+if __name__ == "__main__":
+    scan_portal()
+    print("All done! That was SOOOO fast!")
+

@@ -12,6 +12,40 @@ Hence the mqtt_broker/ and mqtt_test/ folders, which I have not look at for a fe
 For Prometheus + Grafana in Docker, 
 see the README in the prometheus/ folder.
 
+## Architecture
+
+### Content management 
+
+This component recognizes how pathetic it is to not know what the dependencies are
+between feature layers and maps and apps. 
+
+Use cases:
+
+1. I want to be able to confidently delete a service, knowing that it's not being used anywhere.
+2. I want notification of things that are broken.
+
+inventory_builder/ scans everything, at least once to initialize
+
+* portal_scanner.py scans for maps and layers in Portal
+* server_scanner.py scans for services in GIS Server
+* aprx_scanner.py scans for maps and layers in APRX files
+* app_scanner.py scans web appbuilder apps
+* Everything gets records in a database
+
+A python program 
+
+* Watches for changes
+* Updates the database
+
+Web app
+
+* GraphQL backend talks to the database
+* A React front end visualizes contents of database
+
+### License management
+
+### Server management
+
 ## Set up
 
 ### Conda environment for Python packages
@@ -35,18 +69,6 @@ The code for it is currently in mqtt_test because I am testing
 using it to queue messages using MQTT. There is a client program
 that subscribes to messages and a logwatch.py script that will
 eventually watch the log file for FlexLM and publish changes to MQTT.
-
-### MQTT
-
-I am using MQTT for message queues so there is now a mqtt_broker
-folder containing a set up for running Mosquitto in a Docker container.
-It's very basic, included here for convenience; any MQTT broker should work.
-
-It should be possible to install this project on different servers
-so that you can test connections over the Internet.
-
-It should be possible to put the MQTT broker behind a reverse proxy
-so that it can be accessed securely over websockets.
 
 ### NPM and Node
 
