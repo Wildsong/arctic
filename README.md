@@ -1,6 +1,7 @@
 # arctic
 
 ## Overview
+
 Dashboard for ArcGIS Online/ArcGIS Portal.
 
 This is a sandbox at the moment where I am testing out some ideas.
@@ -14,7 +15,7 @@ see the README in the prometheus/ folder.
 
 ## Architecture
 
-### Content management 
+### Content management
 
 This component recognizes how pathetic it is to not know what the dependencies are
 between feature layers and maps and apps. 
@@ -51,11 +52,11 @@ Web app
 ### Conda environment for Python packages
 
 ```bash
-On Windows, use the old Python to avoid DLL errors.
+On Windows, use the old Python to avoid DLL errors. I wonder if this is true still?
     conda create --name=arctic --file=requirements.txt -c conda-forge python=3.7.9
 
 On Linux, 
-    conda create --name=arctic --file=requirements.txt -c conda-forge 
+    conda create --name=arctic --file=requirements.txt -c conda-forge -c esri
 
 conda activate arctic
 ```
@@ -112,6 +113,7 @@ The config files are in an XML file C:/inetpub/wwwroot/{portal|server}/Web.confi
 I am inclined to fix that.***
 
 ### Portal logs
+
 Can be queried via API. 
 
 ### Server logs
@@ -133,7 +135,97 @@ It says here ["Use ArcGIS Server Manager to access, view, configure, and delete 
 See [Usage Reports Configuration](https://delta.co.clatsop.or.us/server/admin/usagereports/settings). Default for "Keep statistics history" was forever. I changed it to 30 days. I don't see any way to clean up the 1650 extra files. I will leave it a few days, maybe
 it will figure out they need to go tonight.
 
-### Datastore logs
+### Datastore
+
+#### Datastore health
+
+I found this REST call to validate the servers, and it gives information
+on BOTH not just a generic "yup it works" thing like in ArcGIS Server Manager.
+
+https://delta.co.clatsop.or.us/server/admin/data/items/enterpriseDatabases/AGSDataStore_ds_atjwr8b3/machines/CC-GISLICENSE.CLATSOP.CO.CLATSOP.OR.US/validate
+
+Sample of the JSON returned,
+
+    {
+    "datastore.release": "11.2.0.49116",
+    "datastore.name": "ds_atjwr8b3",
+    "datastore.replmethod": "ASYNC",
+    "datastore.isReadOnly": "false",
+    "datastore.isConfigured": "true",
+    "machines": [
+        {
+        "machine.overallhealth": "Healthy",
+        "datastore.release": "11.2.0.49116",
+        "datastore.release.configstore": "1.5",
+        "platform": "Windows",
+        "machine.isReachable": "true",
+        "hostip": "10.10.10.53",
+        "name": "CC-GISDATASTORE.CLATSOP.CO.CLATSOP.OR.US",
+        "role": "PRIMARY",
+        "dbport": 9876,
+        "initstarttime": 1710871148935,
+        "healthcheck.enable": "true",
+        "status": "Started",
+        "adminurl": "https://CC-GISDATASTORE.CLATSOP.CO.CLATSOP.OR.US:2443/arcgis/datastoreadmin/",
+        "db.isactive": "true",
+        "db.isAccepting": "true",
+        "db.isInRecovery": "false",
+        "db.ActiveReplMethod": "ASYNC",
+        "db.isManagedUserConnValid": "true",
+        "datastore.release.pg": "14.5",
+        "datastore.release.sde": "11.2.0",
+        "datastore.release.geometry": "1.30.4.10",
+        "datastore.release.geometrylib": "1.30.3.10",
+        "db.isSiteConnValid": "true"
+        },
+        {
+        "machine.overallhealth": "Healthy",
+        "datastore.release": "11.2.0.49116",
+        "datastore.release.configstore": "1.5",
+        "platform": "Windows",
+        "machine.isReachable": "true",
+        "hostip": "10.10.10.150",
+        "name": "CC-GISLICENSE.CLATSOP.CO.CLATSOP.OR.US",
+        "role": "STANDBY",
+        "dbport": 9876,
+        "initstarttime": 1708912672553,
+        "healthcheck.enable": "true",
+        "status": "Started",
+        "adminurl": "https://CC-GISLICENSE.CLATSOP.CO.CLATSOP.OR.US:2443/arcgis/datastoreadmin/",
+        "db.isactive": "true",
+        "db.isAccepting": "true",
+        "db.isInRecovery": "true",
+        "db.ActiveReplMethod": "ASYNC",
+        "db.isManagedUserConnValid": "true",
+        "datastore.release.pg": "14.5",
+        "datastore.release.sde": "11.2.0",
+        "datastore.release.geometry": "1.30.4.10",
+        "datastore.release.geometrylib": "1.30.3.10",
+        "db.isSiteConnValid": "true"
+        }
+    ],
+    "datastore.release.configstore": "1.5",
+    "datastore.release.geometry": "1.30.4.10",
+    "datastore.release.geometrylib": "1.30.3.10",
+    "datastore.release.sde": "11.2.0",
+    "datastore.release.pg": "14.5",
+    "datastore.layer.extent.updated": false,
+    "datastore.status": "Started",
+    "datastore.isActiveHA": "true",
+    "datastore.overallhealth": "Healthy",
+    "datastore.lastfailover": 1708278446754,
+    "datastore.lastbackup": 1707677967241,
+    "datastore.isRegistered": "true",
+    "datastore.hasValidServerConnection": "true",
+    "datastore.validServerMachinesList": [{
+        "machineName": "CC-GISSERVER.CLATSOP.CO.CLATSOP.OR.US",
+        "adminURL": "https://cc-gisserver.clatsop.co.clatsop.or.us:6443/arcgis/admin"
+    }],
+    "owningSystemUrl": "https://delta.co.clatsop.or.us/server",
+    "status": "success"
+    }
+
+#### Datastore logs
 
 Strangely there are no entries in the REST viewer.
 I could not see a way to query it in the API. Maybe there is none.
@@ -149,6 +241,78 @@ The **database** logs include vacuum, postgres, and pg_dump entries. The postgre
 
 I have not looked at the **couchdb** logs yet but we don't 
 do any scene / 3D stuff yet so they are probably empty.
+
+### Enterprise Databases
+
+As with datastores, you can use the REST interface to look at these. 
+
+You can examine (and edit!) configurations here. Caveat emptor.
+
+For example here is the service that won't validate, and right away I see the problem.
+It references Sql Server on cc-testmaps which is probably down right now. 
+That's it. I brought the server online and validation now succeeds.
+A better message than a little red X would be "SQL Server cc-testmaps is unreachable".
+
+https://delta.co.clatsop.or.us/server/admin/data/items/enterpriseDatabases/TaxlotsYesterday_ds_gjiz0v6m2wk0cmdu/edit
+
+    {
+        "path": "/enterpriseDatabases/TaxlotsYesterday_ds_gjiz0v6m2wk0cmdu",
+        "type": "egdb",
+        "id": "7b236f0c5199475f995337723281e72c",
+        "totalRefCount": 0,
+        "info": {
+            "isManaged": false,
+            "connectionString": "ENCRYPTED_PASSWORD_UTF8=00022e682b76766176346277626b5554504d5a563161357a7a59376d495167344235624c5546466b6b386d757834633d2a00;ENCRYPTED_PASSWORD=00022e6867455a5535446d687441665351465a72794c393052484c703732466b706f364f70544774504a506f476f303d2a00;SERVER=cc-testmaps.clatsop.co.clatsop.or.us;INSTANCE=sde:sqlserver:cc-testmaps.clatsop.co.clatsop.or.us;DBCLIENT=sqlserver;DB_CONNECTION_PROPERTIES=cc-testmaps.clatsop.co.clatsop.or.us;DATABASE=gis_test;USER=sde;AUTHENTICATION_MODE=DBMS;HISTORICAL_TIMESTAMP=1/1/2024 1:58:28 PM",
+            "dataStoreConnectionType": "shared",
+            "portalProperties": {"itemID": "7b236f0c5199475f995337723281e72c"}
+        }
+    }
+
+### File shares
+
+You can also share files via Server, those show up in Data Stores as "folders".
+You can see them via REST,
+
+https://delta.co.clatsop.or.us/server/admin/data/items/fileShares
+
+and the broken one shows up at 
+
+https://delta.co.clatsop.or.us/server/admin/data/items/fileShares/TestTaxmaps_ds_ek9e4ig5ou7yrbks
+
+and again I see the problem immediately -- it's a missing folder K:\webmaps\TestMaps
+I wonder what was supposed to be in it? I made a new empty folder there.
+I put a README in it. The connection JSON looks like this.
+
+    {
+        "path": "/fileShares/TestTaxmaps_ds_ek9e4ig5ou7yrbks",
+        "type": "folder",
+        "id": "be3c283f46014261b8e271010cc8f504",
+        "clientPath": "K:\\webmaps\\TestMaps",
+        "info": {
+            "isManaged": false,
+            "path": "\\\\cc-files01\\Applications\\GIS\\webmaps\\TestMaps",
+            "hostName": "04-2288",
+            "dataStoreConnectionType": "replicated",
+            "portalProperties": {"itemID": "be3c283f46014261b8e271010cc8f504"}
+        }
+    }
+
+I searched for "Data stores" in my content on Portal and see a folder I made 1/2/23.
+I tried to delete it in Portal and got this error:
+"Unable to delete item. This data store item is registered in at least one server. Go to the Settings tab of this data store to deselect all federated servers."
+It says the server "https://delta.co.clatsop.or.us/server (Hosting Server)" is not available, but it is.
+
+The info/path has a problem, it shows cc-files01 which no longer works.
+I changed it to //cc-applications/ but that failed with 
+"The data store item 'be3c283f46014261b8e271010cc8f504' can only be managed via Portal."
+What's the REST for THAT fix?
+
+I can't fix it and I can't delete it. I can't update the path in Portal because
+it says it's not valid.
+
+When I tried to share a new folder in Portal it said my hosting server is not available,
+this is deeply disturbing.
+
 
 ### Resources
 

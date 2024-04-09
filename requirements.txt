@@ -1,10 +1,8 @@
-paho-mqtt
 autopep8>=1.5
 opencv>=4.3
-twilio
 black
 coverage
 flake8
 mock
 arcgis>=2.0.1
-python-dotenv
+requests

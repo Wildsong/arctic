@@ -10,35 +10,15 @@ myname = exe + ' ' + VERSION
 if __name__ == "__main__":
 
     gis = GIS(Config.PORTAL_URL, Config.PORTAL_USER, Config.PORTAL_PASSWORD)
-    log = gis.admin.logs
+    pds = gis.datastore
 
-    server_manager = gis.admin.servers
-    server = server_manager.list()[0]
-
-    dsm = server.datastores
-
-    # Docs say all parameters are optional but that is wrong.
-    items = dsm.search(types='folder,egdb,datadir')['items']
-    for d in items:
-        for k,v in d.items():
-            if k=='provider' and v=='ArcGIS Data Store':
-                machines = d['info']['machines']
-                print('machines:')
-                for machine in machines:
-                    print("  name: %s role:%s" % (machine['name'],machine['role']))
-            if k=='info':
-                print(" info")
-                for k,v in v.items():
-                    print('   %s :' % k, v)
-            else:
-                print(' %s :' % k, v)
-        print()
-# update logging settings
-
-    # for portal, datastore, server
-    # grab log
-
-    # parse it
-    # show interesting messages
-
+    ds_items = gis.content.search('*', item_type="Data Store")
+    for item in ds_items:
+        d = item.get_data()
+        print(f"{item['title']} Type:{d['type']}")
+        if d['type']=='egdb':
+            layers = pds.layers(item) # nothing to see here unless you use publish_layers
+            for layer in layers:
+                print(layer)
+   
     print("That's all!")

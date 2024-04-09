@@ -1,9 +1,7 @@
 import os
-from dotenv import load_dotenv
 from arcgis.gis import GIS
 
 class Config(object):
-    load_dotenv()
 
     PORTAL_URL = os.environ.get('PORTAL_URL')
     PORTAL_USER = os.environ.get("PORTAL_USER")
@@ -25,8 +23,6 @@ if __name__ == "__main__":
     assert(Config.PORTAL_PASSWORD)
 
     assert(Config.SERVER_URL)
-    assert(Config.SERVER_ADMIN_USER)
-    assert(Config.SERVER_ADMIN_PASSWORD)
 
     # Test a connection via normal auth
     gis = GIS(Config.PORTAL_URL, Config.PORTAL_USER, Config.PORTAL_PASSWORD)
@@ -48,7 +44,8 @@ if __name__ == "__main__":
         q, item_type='web map', outside_org=False, max_items=5000)
     print("Maps found %d" % len(list_of_maps))
 
-    d = os.environ
-    for k in d:
-        print("%s : %s" % (k, d[k]))
-#    print("PYTHONPATH=", os.environ.get("PYTHONPATH"))
+    # Dump the whole environment
+    #d = os.environ
+    #for k in d:
+    #    print("%s : %s" % (k, d[k]))
+    print("PYTHONPATH=", os.environ.get("PYTHONPATH"))

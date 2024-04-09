@@ -66,6 +66,7 @@ USER flexlm
 WORKDIR /home/flexlm
 
 # Tested with each of these, 2023-03-09
+#COPY ArcGIS_License_Manager_Linux_2019_2_173095.tar.gz LicenseManager.tar.gz DOES NOT WORK ("Wrong ELF class")
 #COPY ArcGIS_License_Manager_Linux_2021.0_177950.tar.gz LicenseManager.tar.gz
 COPY ArcGIS_License_Manager_Linux_2022_1_184756.tar.gz LicenseManager.tar.gz
 
