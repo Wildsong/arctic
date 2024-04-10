@@ -1,0 +1,6 @@
+flask>=1.1.2
+flask-wtf>=0.14
+flask-debugtoolbar>=0.10.1
+pyodbc>=4.0.32
+pandas>=1.4.1
+bjoern>=3.2.2

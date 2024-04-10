@@ -1,9 +1,9 @@
 version: "3.7"
 
-#networks:
-#  proxy_net:
-#    name: proxy_net
-#    external: true
+networks:
+  proxy:
+    name: proxy
+    external: true
 
 services:
   flask:
@@ -17,12 +17,16 @@ services:
       - PYTHONPATH=/srv
       - FLASK_APP=start_webhooks
       - FLASK_ENV=development
-    ports:
-      - 9443:9443
+    expose:
+      - 5002
+#    ports:
+#      - 9443:9443
     user: app
-#    networks:
-#      proxy_net:
-#        aliases:
+    networks:
+      proxy:
+        aliases:
+          - webhooks
+          - property
 
     # for docker-compose
     restart: unless-stopped
@@ -30,6 +34,7 @@ services:
     # Uncomment for testing only; in production
     # copy the files right into the image at build time
     # and run waitress not flask. 
-    command: flask run -h 0.0.0.0 -p 9443 --cert=adhoc
+#    command: flask run -h 0.0.0.0 -p 9443 --cert=adhoc
+#    command: flask run -h 0.0.0.0 -p 5002
     volumes:
       - .:/srv:ro

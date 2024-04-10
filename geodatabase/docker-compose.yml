@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  api:
+    image: arctic-geodatabase-api
+    build: 
+      dockerfile: Dockerfile
+      context: .
+    environment:
+      DBSERVER: ${DBSERVER}
+      DATABASE: ${DATABASE}
+      DBUSER: ${DBUSER}
+      DBPASSWORD: ${DBPASSWORD}
+      # bjoern settings
+      #VARIABLE_NAME: application
+      MODULE_NAME: app.start_server
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    ports: [ "5001:80" ]
+    restart: unless-stopped

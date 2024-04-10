@@ -1,0 +1,71 @@
+FROM dokken/rockylinux-9 as builder
+
+# =================================================================
+# STAGE 1 -- Configure a build host and install the license manager
+# All this work just to get a working copy of "lmutil". Nothing else is needed.
+# There is a HUGE list of "required packages" here but it's pointless
+# because all we need is the lmutil so
+# I ignore this list and run the installer in "silent" mode
+# then copy from the "required" RHEL *really Rocky Linux* image
+# to the one based on Debian
+#
+# https://desktop.arcgis.com/en/license-manager/latest/arcgis-license-manager-system-requirements.htm
+
+# Since the final stage will be running Debian it might be better to add another stage
+# and build the conda portion in Debian instead of CentOS.
+ADD https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh .
+RUN sh Miniconda3-latest-Linux-x86_64.sh -b -p /opt/conda
+ENV PATH=/opt/conda/bin:${PATH}
+ADD conda_requirements.txt ./
+
+# From MapProxy, I left git and pi in here but probably don't need them.
+RUN conda update -n base -c defaults conda && \
+    conda config --add channels conda-forge && \
+    conda install -y --name base pip git --file conda_requirements.txt
+
+# I can use any username here, I suppose
+RUN adduser flexlm && \
+    mkdir -p /usr/local/share/macrovision/storage && \
+    chmod 777 /usr/local/share/macrovision/storage
+
+USER flexlm
+WORKDIR /home/flexlm
+
+# Tested with each of these, 2023-03-09
+#COPY ArcGIS_License_Manager_Linux_2019_2_173095.tar.gz LicenseManager.tar.gz DOES NOT WORK ("Wrong ELF class")
+#COPY ArcGIS_License_Manager_Linux_2021.0_177950.tar.gz LicenseManager.tar.gz
+#COPY ArcGIS_License_Manager_Linux_2022_1_184756.tar.gz LicenseManager.tar.gz
+#RUN tar xzvf LicenseManager.tar.gz && cd LicenseManager_Linux && ./Setup -l Yes -m silent
+
+COPY ArcGIS_License_Manager_Linux_2023_0_187909.tar.gz LicenseManager.tar.gz
+RUN tar xzvf LicenseManager.tar.gz && ./Setup -l Yes -m silent
+
+# Dump messages out so that errors will be visible on the console when building 
+RUN cat arcgis/licensemanager/.Setup/LicenseManager_InstallLog.log
+
+USER root
+
+# ===========================================
+# DEPLOYMENT STAGE -- install and run the microservice
+# Note that python-bjoern is running in Debian Bullseye
+FROM tecktron/python-bjoern
+COPY --from=builder /opt/conda /opt/conda
+ENV PATH=/opt/conda/bin:${PATH}
+    
+COPY --from=builder /home/flexlm/arcgis/licensemanager/bin/lmutil /usr/local/bin/
+ADD lmstat /usr/local/bin/
+ADD service.txt /usr/local/share/
+
+ENV PYTHONPATH /app
+WORKDIR /app
+COPY prestart.sh .
+COPY app app
+
+# No idea if I need this. It might still matter to someone since it's in builder stage
+RUN mkdir -p /usr/local/share/macrovision/storage && \
+    chmod 777 /usr/local/share/macrovision/storage
+
+RUN useradd --uid 1000 --create-home --home-dir /srv/arctic arctic && \
+    chfn --full-name "Arctic" arctic
+USER arctic
+WORKDIR /srv/arctic

@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  monitor:
+    image: arctic-flexlm-monitor
+    build: 
+      dockerfile: Dockerfile
+      context: .
+    environment:
+      LICENSE: /srv/arctic/service.txt
+      # bjoern settings
+      #VARIABLE_NAME: app
+      MODULE_NAME: app.start_server
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    ports: [ "5500:80" ]
+    restart: unless-stopped

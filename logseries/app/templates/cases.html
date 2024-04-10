@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Cases update data entry form{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+        <h1>Cases update</h1>
+</div>
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        
+        <i>Enter <b>cumulative</b> numbers, not numbers for one day.</i>
+
+        <table>
+            <tr>
+                <td>Date/Time</td> <i>{{form.old_date}}</i>
+                <td><input type="text" name="datestamp" value="{{form.datestamp.data}}"/> **use 24hr time not am/pm</td>
+            </tr>
+            <tr>
+                <td>New cases </td>
+                <td><input type="number" name="new_cases" value="{{form.new_cases.data}}"/></td>
+            </tr>
+            <tr>
+                <td>Total cases </td>
+                <td><input type="number" name="total_cases" value="{{form.total_cases.data}}"/></td>
+            </tr>
+            <tr>
+                <td>Negative</td>
+                <td><input type="number" name="negative"  value="{{form.negative.data}}"/></td>
+            </tr>
+            <tr>
+                <td>New deaths</td>
+                <td><input type="number" name="new_deaths" value="{{form.new_deaths.data}}" /></td>
+            </tr>
+            <tr>
+                <td>Total deaths</td>
+                <td><input type="number" name="total_deaths" value="{{form.total_deaths.data}}" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="submit" /> &nbsp; &nbsp; 
+                    <input type="reset" name="reset" /></td>
+            </tr>
+        </table>
+    </form>
+
+    <i>Information you enter here will immediately show up on the IMT and public dashboards.</i>
+{% endblock %}
