@@ -1,49 +1,15 @@
-FROM centos:7 as builder
+FROM dokken/rockylinux-9 as builder
 
 # =================================================================
 # STAGE 1 -- Configure a build host and install the license manager
-# This list of packages is from the ESRI requirements description.
-# It includes the entire X-Window server that we will never need.
-# Hence the multistage build, first download many files so that
-# the Esri installer can run in silent mode, and then 
-# ignore them in stage2.
-
-RUN yum install -y \
- compat-libstdc++-33.i686 \
- compat-libf2c-34.i686 \
- compat-openldap.i686 \
- cairo.i686 \
- freeglut.i686 \
- fuse-libs.i686 \
- gmp.i686 \
- gtk2.i686 \
- PackageKit-glib.i686 \
- PackageKit-gtk3-module.i686 \
- polkit.i686 \
- polkit.x86_64 \
- redhat-lsb.i686
-
-RUN yum install -y \
- libcanberra.i686 \
- libgcc.i686 \
- libgfortran.i686 \
- libidn.i686 \
- libstdc++.i686 \
- libSM.i686 \
- libX11.i686 \
- libXau.i686 \
- libxcb.i686 \
- libXdamage.i686 \
- libXext.i686 \
- libXfixes.i686 \
- libXrender.i686 \
- libXp.i686 \
- libXScrnSaver.i686 \
- libXtst.i686
-
-RUN yum install -y \
- mesa-libGL.i686 \
- mesa-libGLU.i686
+# All this work just to get a working copy of "lmutil". Nothing else is needed.
+# There is a HUGE list of "required packages" here but it's pointless
+# because all we need is the lmutil so
+# I ignore this list and run the installer in "silent" mode
+# then copy from the "required" RHEL *really Rocky Linux* image
+# to the one based on Debian
+#
+# https://desktop.arcgis.com/en/license-manager/latest/arcgis-license-manager-system-requirements.htm
 
 # Since the final stage will be running Debian it might be better to add another stage
 # and build the conda portion in Debian instead of CentOS.
@@ -68,11 +34,11 @@ WORKDIR /home/flexlm
 # Tested with each of these, 2023-03-09
 #COPY ArcGIS_License_Manager_Linux_2019_2_173095.tar.gz LicenseManager.tar.gz DOES NOT WORK ("Wrong ELF class")
 #COPY ArcGIS_License_Manager_Linux_2021.0_177950.tar.gz LicenseManager.tar.gz
-COPY ArcGIS_License_Manager_Linux_2022_1_184756.tar.gz LicenseManager.tar.gz
+#COPY ArcGIS_License_Manager_Linux_2022_1_184756.tar.gz LicenseManager.tar.gz
+#RUN tar xzvf LicenseManager.tar.gz && cd LicenseManager_Linux && ./Setup -l Yes -m silent
 
-RUN tar xzvf LicenseManager.tar.gz && \
-    cd LicenseManager_Linux && \
-    ./Setup -l Yes -m silent
+COPY ArcGIS_License_Manager_Linux_2023_0_187909.tar.gz LicenseManager.tar.gz
+RUN tar xzvf LicenseManager.tar.gz && ./Setup -l Yes -m silent
 
 # Dump messages out so that errors will be visible on the console when building 
 RUN cat arcgis/licensemanager/.Setup/LicenseManager_InstallLog.log
