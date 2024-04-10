@@ -1,8 +1,9 @@
 # flexlm
 
+2024-04-10 Updated for 2023 FlexLM and switched from CentOS 7 to Rocky Linux 9 in build stage.
 2023-03-10 Converted from waitress to bjoern  
-2023-03-09 
-This used to be a separate project called "arctic-monitor", today I rolled it into Arctic
+2023-03-09 This used to be a separate project called "arctic-monitor", today I rolled it into Arctic
+
 
 * I tried running this container on Windows Desktop (in a Linux docker) and it could not connect to the real license server. Whatever. Weird use case anyway.
 * I tried to use Debian 11 in stage 2 and failed. Sticking with Centos.
@@ -69,7 +70,7 @@ You need to edit the service.txt file so that it has the actual license server
 host name instead of "This_Host".  Copy the service.txt file into the
 config/ directory, and edit it.
 
-Build the image. 
+Build the image.
 
    docker compose build
 
@@ -117,12 +118,44 @@ Uses lmutil and stores output in SQL Server:
 
 ### WATCHING THE LOG FILE
 
+Where are the log files?
+
+   C:/ProgramData/ArcGIS/LicenseManager/lmgrd9.log
+
+```bash
+13:01:46 (lmgrd) -----------------------------------------------
+13:01:46 (lmgrd)   Please Note:
+13:01:46 (lmgrd)
+13:01:46 (lmgrd)   This log is intended for debug purposes only.
+13:01:46 (lmgrd)   In order to capture accurate license
+13:01:46 (lmgrd)   usage data into an organized repository,
+13:01:46 (lmgrd)   please enable report logging. Use Flexera's
+13:01:46 (lmgrd)   software license administration  solution,
+13:01:46 (lmgrd)   FlexNet Manager, to  readily gain visibility
+13:01:46 (lmgrd)   into license usage data and to create
+13:01:46 (lmgrd)   insightful reports on critical information like
+13:01:46 (lmgrd)   license availability and usage. FlexNet Manager
+13:01:46 (lmgrd)   can be fully automated to run these reports on
+13:01:46 (lmgrd)   schedule and can be used to track license
+13:01:46 (lmgrd)   servers and usage across a heterogeneous
+13:01:46 (lmgrd)   network of servers including Windows NT, Linux
+13:01:46 (lmgrd)   and UNIX.
+13:01:46 (lmgrd)
+13:01:46 (lmgrd) -----------------------------------------------
+13:01:46 (lmgrd)
+13:01:46 (lmgrd)
+13:01:46 (lmgrd) Server's System Date and Time: Sun Mar 17 2024 13:01:46 Pacific Daylight Time
+13:01:46 (lmgrd) pid 6676
+.
+.
+.
 14:46:39 (telelogic) DENIED: DOORS indkach@indkach  [telelogic]
 (Licensed number of users already reached. (-4,342:10054 ))
 14:46:39 (telelogic) DENIED: DOORS indkach@indkach  [telelogic]
 (Licensed number of users already reached. (-4,342:10054 ))
 14:46:39 (telelogic) OUT: TLSTOK-token indkach@indkach  [DOORS]
 (3 licenses)
+```
 
 ### "REPORT" LOGGING - can be enabled in OPTIONS file but produces an encrypted file that is of no use without Flexera software
 
@@ -130,12 +163,14 @@ See <https://openlm.com/blog/are-flexnet-flexlm-manager-report-logs-essential-fo
 
 ### Version 2 ideas
 
-The advantage of doing this is that I can see the log file and respond as soon as anything happens instead of polling. 
-The disadvantage is that if the server is down, the monitoring web site will be down too. Further it precludes multiple redundant license servers.
+The advantage of watching the log instead of polling lmutil
+is that the monitor can respond as soon as anything happens instead of at polling intervals.
+The disadvantage is it precludes multiple redundant license servers but no one seems
+to do that with ArcGIS anyway.
 
 If I put a microservice on the actual license manager, and let it run both lmstat
-and monitor the logs, and then make a dumber flask app that does not need to have
-lmstat installed, I will be several steps ahead. So I will be doing that on the "dev"
-branch of this project starting right this minute. (Ha ha ha.)
+and monitor the logs, it could run lmstat directly from Windows. But ugh. Windows.
+So for now I will just try to bind mount the log directory and then tail it from
+the Docker container.
 
-The microservice would be a GraphQL publisher, the pub/sub model makes more sense here.
+The microservice will be a GraphQL publisher.
