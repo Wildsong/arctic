@@ -26,26 +26,29 @@ here in the project folder before doing the Docker build.
 
 ### Next Generation version
 
-The advantage of watching the log instead of polling lmutil
+This will be a Node JS server that works with the Arctic app.
+I will create a proof of concept React app here to test it.
+The backend server will use GraphQL and Apollo to push notifications
+to the React app. At startup the backend collects current state data
+then when React app subscribes, it pushes current state. 
+Whenever a new log entry is written, it pushes an update.
+
+The advantage of watching the log instead of just polling lmutil
 is that the monitor can respond as soon as anything happens instead of at polling intervals.
-The disadvantage is it precludes multiple redundant license servers but no one seems
-to do that with ArcGIS anyway.
 
-If I put a microservice on the actual license manager, and let it run both lmstat
-and monitor the logs, it could run lmstat directly from Windows. But ugh. Windows.
-So for now I will just try to bind mount the log directory and then tail it from
-the Docker container.
+If I put a GraphQL microservice on the actual license manager, and let it run both lmstat
+and monitor the logs.
 
-The microservice will be a GraphQL publisher.
-
-Okay, so I have to rewrite everything to run directly in Docker, not Docker Compose, because I don't have Docker Compose installed on Windows Server.
+Okay, I have to rewrite everything to run directly in Docker, not Docker Compose, because I don't have Docker Compose installed on Windows Server. Not really a big deal.
 
 TODO
 
-Write the front end. When it starts, it will subscribe to notifications from the server.
-
-In the server, poll the output from lmstat.bat periodically. Push updates to the front end.
+Write the server. Poll the output from lmstat.bat periodically. Push updates to the front end.
 Read the log file, parse it and collect current status, then as it changes, push notifications to the front end.
+
+Write the front end. When it starts, it will subscribe to notifications from the server.
+A smart front end could show when the last update occurred and express concern if it's been
+a long time? Like, "Did you crash, FlexLM? Are you ok?" Hey ho.
 
 ## The obligatory screenshot
 
@@ -138,9 +141,22 @@ If you don't want to, skip to the next section.
 
 #### Talking to the license manager
 
-   bin="C:\\Program Files\\ArcGIS\\LicenseManager\\bin"
-   dstbin="C:\\srv\\bin"
-   docker container run --rm -it -v "$src:$dst" lmstat
+bin="C:\\Program Files\\ArcGIS\\LicenseManager\\bin"
+dstbin="C:\\srv\\bin"
+docker container run --rm -it -v "$bin:$dstbin" lmstat
+
+For unencrypted WebSockets (ws vs wss) remember to allow insecure connections in Firefox,
+goto "about:config" and check "network.websocket.allowInsecureFromHTTPS"
+
+Run the express server and allow live updates of source code
+
+bin="C:\\Program Files\\ArcGIS\\LicenseManager\\bin"
+dstbin="C:\\srv\\bin"
+app=".\\app"
+dstapp="C:\\srv\\app"
+logs="C:\\ProgramData\\ArcGIS\\LicenseManager"
+dstlogs="C:\srv\logs"
+docker container run --name flexlm -p 4000:4000 --rm -v "$logs:$dstlogs" -v "$bin:$dstbin" -v "$app:$dstapp":rw lmstat
 
 When you are in the shell you can run "lmstat" and it should dump
 out the license info. 
@@ -217,5 +233,12 @@ See <https://openlm.com/blog/are-flexnet-flexlm-manager-report-logs-essential-fo
 
 ## Resources
 
-https://blog.theodo.com/2018/02/real-time-notification-system-graphql-react-apollo/
+[How to execute an external program in Node JS](https://stackoverflow.com/questions/5775088/how-to-execute-an-external-program-from-within-node-js)
 
+[React and notifications from GraphQL](https://blog.theodo.com/2018/02/real-time-notification-system-graphql-react-apollo/)
+
+[Node docs: Using child_process](https://nodejs.org/api/child_process.html)
+
+[Using child_process with async/await](https://stackoverflow.com/questions/58570325/how-to-turn-child-process-spawns-promise-syntax-to-async-await-syntax)
+
+[Implementing tail -f in NodeJS](https://kodewithkamran.medium.com/implementing-tail-f-in-node-js-edeb412eb587)

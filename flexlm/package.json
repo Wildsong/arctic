@@ -1,0 +1,56 @@
+{
+    "name": "flexlm",
+    "version": "2.0.0",
+    "description": "GraphQL monitor for FlexLM license manager",
+    "keywords": [
+        "arctic",
+        "flexlm",
+        "apollo",
+        "graphql",
+        "node",
+        "express"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Wildsong/arctic.git"
+    },
+    "license": "GPL3",
+    "contributors": [
+        "Brian H Wilson <bwilson@clatsopcounty.gov>"
+    ],
+    "type": "module",
+    "devDependencies": {
+        "nodemon":"^3.1.0"
+    },
+    "dependencies": {
+        "@apollo/server": "^4.7.4",
+        "@graphql-tools/schema": "^10.0.3",
+        "@logdna/tail-file": "^4.0.2",
+        "body-parser": "^1.20.2",
+        "child_process": "^1.0.2",
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "graphql": "^16.6.0",
+        "graphql-ws": "^5.16.0",
+        "ws": "^8.16.0"    },
+    "scripts": {
+        "dev": "nodemon app/server.js",
+        "prod": "node app/server.js",
+        "start": "npm run dev"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react"
+        ],
+        "plugins": [
+            "@babel/plugin-proposal-object-rest-spread",
+            [
+                "@babel/plugin-proposal-class-properties",
+                {
+                    "loose": true
+                }
+            ]
+        ]
+    }
+}
