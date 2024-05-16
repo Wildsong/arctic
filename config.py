@@ -1,9 +1,7 @@
 import os
-from dotenv import load_dotenv
 from arcgis.gis import GIS
 
 class Config(object):
-    load_dotenv()
 
     PORTAL_URL = os.environ.get('PORTAL_URL')
     PORTAL_USER = os.environ.get("PORTAL_USER")

@@ -50,23 +50,15 @@ Web app
 
 ### Conda environment for Python packages
 
-```bash
-On Windows, use the old Python to avoid DLL errors.
-    conda create --name=arctic --file=requirements.txt -c conda-forge python=3.7.9
-
-On Linux, 
-    conda create --name=arctic --file=requirements.txt -c conda-forge 
-
-conda activate arctic
-```
+    conda create --name=arctic --file=requirements.txt -c conda-forge -c esri
+    conda activate arctic
 
 ### FlexLM
 
-I am now adding support for the ESRI LicenseManager (flexlm)
+I am adding support for the ESRI LicenseManager (flexlm)
 by merging in code from my previous docker project docker-flexlm.
 
-The code for it is currently in mqtt_test because I am testing
-using it to queue messages using MQTT. There is a client program
+There is a client program
 that subscribes to messages and a logwatch.py script that will
 eventually watch the log file for FlexLM and publish changes to MQTT.
 

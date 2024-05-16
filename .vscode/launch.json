@@ -7,10 +7,10 @@
     
     {
       "name": "Python: Flask webhooks",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "module": "flask",
-      "cwd": "/home/gis/source/repos/arctic/webhooks",
+      "cwd": "webhooks",
       "env": {
         "PYTHONDONTWRITEBYTECODE": "1",
         "FLASK_APP": "start_webhooks",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Python: Current File",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${file}",
       "console": "internalConsole",
