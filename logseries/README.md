@@ -22,4 +22,9 @@ read_logs.py - Displays plots of data from all available log files.
 
 Turn it into a real app.
 
-Housecleaning, get rid of COVID19 files.
+
+## Resources
+
+Codes from Server
+
+https://enterprise.arcgis.com/en/server/latest/administer/windows/core-server-log-codes.htm
